@@ -1,0 +1,274 @@
+{% set body_classes = body_class(['header-fixed', 'header-animated', 'header-dark', 'header-transparent', 'sticky-footer']) %}
+{% set grid_size = theme_var('grid-size') %}
+{% set compress = theme_var('production-mode') ? '.min.css' : '.css' %}
+{% use 'blocks/base.html.twig' %}
+<!DOCTYPE html>
+<html lang="{{ grav.language.getActive ?: grav.config.site.default_lang }}">
+<head>
+{% block head deferred %}
+    <meta charset="utf-8" />
+    <title>{% if page.title %}{{ page.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include 'partials/metadata.html.twig' %}
+
+    <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
+    <link rel="canonical" href="{{ page.url(true, true) }}" />
+    {# Style sidebar #}
+    <style>
+        .sidebar-content .recent-post {
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #F0F0F0;
+            float: left;
+            clear: both;
+            width: 100%;
+        }
+
+        .sidebar-content [class~='recent-post']:last-of-type {
+            border-bottom: none;
+        }
+
+        .sidebar-content .recent-post .recent-post-image,
+        .sidebar-content .recent-post .recent-post-text {
+            float: left;
+        }
+
+        .sidebar-content .recent-post .recent-post-image {
+            margin-right: 10px;
+        }
+
+        .sidebar-content .recent-post .recent-post-text h4 {
+            font-family: serif;
+            margin-bottom: 10px;
+        }
+
+        .sidebar-content .recent-post .recent-post-text h4 a {
+            color: #193441;
+        }
+
+        .sidebar-content .recent-post .recent-post-text p {
+            font-family: Arial, sans-serif;
+            font-size: 1.5rem;
+            color: #737373;
+            margin: 0;
+        }
+
+        .home-posts img {
+            width: 100%;
+            aspect-ratio: 16/9;
+            object-fit: cover;
+        }
+    </style>
+    {# End Style sidebar #}
+    
+{% endblock head %}
+{% block stylesheets %}
+    {% do assets.addCss('theme://css-compiled/spectre'~compress) %}
+    {% if theme_var('spectre.exp') %}{% do assets.addCss('theme://css-compiled/spectre-exp'~compress)  %}{% endif %}
+    {% if theme_var('spectre.icons') %}{%  do assets.addCss('theme://css-compiled/spectre-icons'~compress) %}{% endif %}
+    {% do assets.addCss('theme://css-compiled/theme'~compress) %}
+    {% do assets.addCss('theme://css/custom.css') %}
+    {% do assets.addCss('theme://css/line-awesome.min.css') %}
+{% endblock %}
+
+{% block javascripts %}
+    {% do assets.addJs('jquery', 101) %}
+    {% do assets.addJs('theme://js/jquery.treemenu.js', {group:'bottom'}) %}
+    {% do assets.addJs('theme://js/site.js', {group:'bottom'}) %}
+{% endblock %}
+
+{% block assets deferred %}
+    {{ assets.css()|raw }}
+    {{ assets.js()|raw }}
+{% endblock %}
+</head>
+
+
+
+
+
+<body id="top" class="{% block body_classes %}{{ body_classes }}{% endblock %}">
+    <div id="page-wrapper">
+    {% block header %}
+        <section id="header" class="section">
+            <section class="container {{ grid_size }}">
+                <nav class="navbar">
+                    <section class="navbar-section logo">
+                        {% include 'partials/logo.html.twig' %}
+                    </section>
+                    <section class="navbar-section desktop-menu">
+
+                        <nav class="dropmenu animated">
+                        {% block header_navigation %}
+                            {% include 'partials/navigation.html.twig' %}
+                        {% endblock %}
+                        </nav>
+
+                        {% if config.plugins.login.enabled and grav.user.username %}
+                            <span class="login-status-wrapper"><i class="fa fa-user"></i> {% include 'partials/login-status.html.twig' %}</span>
+                        {% endif %}
+
+                    </section>
+                </nav>
+            </section>
+        </section>
+        <div class="mobile-menu">
+            <div class="button_container" id="toggle">
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
+            </div>
+        </div>
+    {% endblock %}
+
+    {% block hero %}{% endblock %}
+
+        <section id="start">
+        {% block body %}
+            <section id="body-wrapper" class="section" style="display: grid; grid-template-columns: 20% 60% 20%;">
+                {#Home#}
+                {#Paginate Pertama#}
+                {% if uri.path == '/' %}
+                    <div></div>
+                    <div>
+                        <section class="home-posts" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 976px; width: 100%">
+                            {% set collection = page.find('/blog').children %}
+                            {% set limit = 2 %}
+                            {% set ignore_url_param_array = [ 'event' ] %}
+                            {% do paginate( collection, limit, ignore_url_param_array ) %}
+
+                            {% for item in collection %}
+                                {% set bannerimage = item.media['banner.jpg'] %}
+                                <div class="recent-post">
+                                    {% if bannerimage %}
+                                        <div class="recent-post-image">
+                                            {{ bannerimage.quality(100) | raw }}
+                                        </div>
+                                    {% else %}
+                                        <div class="recent-post-image"><img src="{{ url('theme://images/logo.png') }}" width="60" height="60"></div>
+                                    {% endif %}
+                                    <div class="recent-post-text">
+                                        <h4><a href="{{item.url}}">{{ item.title }}</a></h4>
+                                        <p>{{ item.date|date("M j, Y")}}</p>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </section>
+                        {# include the pagination bar #}
+                        {% if config.plugins.pagination.enabled and collection.params.pagination %}
+                            {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
+                        {% endif %}
+                    </div>
+                    
+                    <div>
+                        <div class="grav-youtube">
+                            <iframe src="https://www.youtube.com/embed/pM8Vhzq5uYE?si=NOJwYE1OIucfNwcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                          <div class="grav-youtube">
+                            <iframe src="https://www.youtube.com/embed/ZkTC8YKO2lA?si=6S2ZT9gYELL-bS8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div> 
+                    </div>
+                {#EndPaginate Pertama#}
+
+                {#Paginate Seterusnya#}
+
+                {% elseif uri matches '~page;~' %}
+                    <div></div>
+                    <div>
+                        <section class="home-posts" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 976px; width: 100%">
+                            {% set collection = page.find('/blog').children %}
+                            {% set limit = 2 %}
+                            {% set ignore_url_param_array = [ 'event' ] %}
+                            {% do paginate( collection, limit, ignore_url_param_array ) %}
+
+                            {% for item in collection %}
+                                {% set bannerimage = item.media['banner.jpg'] %}
+                                <div class="recent-post">
+                                    {% if bannerimage %}
+                                        <div class="recent-post-image">
+                                            {{ bannerimage.quality(100) | raw }}
+                                        </div>
+                                    {% else %}
+                                        <div class="recent-post-image"><img src="{{ url('theme://images/logo.png') }}" width="60" height="60"></div>
+                                    {% endif %}
+                                    <div class="recent-post-text">
+                                        <h4><a href="{{item.url}}">{{ item.title }}</a></h4>
+                                        <p>{{ item.date|date("M j, Y")}}</p>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </section>
+                        {# include the pagination bar #}
+                        {% if config.plugins.pagination.enabled and collection.params.pagination %}
+                            {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
+                        {% endif %}
+                    </div>
+                    <div>
+                    {#YT#}
+                        <div class="grav-youtube">
+                            <iframe  src="https://www.youtube.com/embed/pM8Vhzq5uYE?si=NOJwYE1OIucfNwcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>   
+                        <div class="grav-youtube">
+                           <iframe src="https://www.youtube.com/embed/ZkTC8YKO2lA?si=6S2ZT9gYELL-bS8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div> 
+                    {#EndYT#}
+                    </div>
+                {#EndPaginate Seterusnya#}
+                {#EndHome#}
+
+                {#Sidebar#}
+                {% else %}
+                    <div class="sidebar-content recent-posts">
+                        <h3>Recent Posts</h3>
+                        {% for p in page.find('/blog').children.order('date', 'desc').slice(0, 5) %}
+                            {% set bannerimage = p.media['banner.jpg'] %}
+                            <div class="recent-post">
+                                
+                                <div class="recent-post-text">
+                                    <h4><a href="{{p.url}}">{{ p.title }}</a></h4>
+                                    <p>{{ p.date|date("M j, Y")}}</p>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                    {#EndSidebar#}
+                    <section class="container {{ grid_size }}">
+                        {% block messages %}
+                            {% include 'partials/messages.html.twig' ignore missing %}
+                        {% endblock %}
+                        {{ block('content_surround') }}
+                    </section>
+                {% endif %}
+            </section>
+        {% endblock %}
+        </section>
+    </div>
+
+    {#Footer#}
+    {% block footer %}
+        {% include 'partials/footer.html.twig' %}
+    {% endblock %}
+
+    {% block mobile %}
+    <div class="mobile-container">
+        <div class="overlay" id="overlay">
+            <div class="mobile-logo">
+                {% include 'partials/logo.html.twig' with {mobile: true} %}
+            </div>
+            <nav class="overlay-menu">
+                {% include 'partials/navigation.html.twig' with {tree: true} %}
+            </nav>
+        </div>
+    </div>
+    {% endblock %}
+
+{% block bottom %}
+    {{ assets.js('bottom')|raw }}
+{% endblock %}
+    {#Endfooter#}
+
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+1717780734
+a:2:{s:7:"content";s:1403:"<header>
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-left">
+                <ul class="menu">
+                    <li><a href="#">UNAIR</a></li>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Cyber Campus</a></li>
+                    <li><a href="#">Multilanguage Switcher</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="logo-bar">
+        <div class="container">
+            <div class="logo">
+                <img src="{{ url('user/themes/yourtheme/images/logo.png') }}" alt="Logo">
+                <div class="site-title">
+                    <h1>Universitas Airlangga</h1>
+                    <h2>Fakultas Vokasi D3 Manajemen Perbankan</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="menu">
+                <li><a href="{{ base_url_absolute }}">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Pendidikan</a></li>
+                <li><a href="#">Mahasiswa</a></li>
+                <li><a href="#">Penelitian</a></li>
+                <li><a href="#">Fasilitas</a></li>
+                <li><a href="#">Event</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>";s:12:"content_meta";N;}

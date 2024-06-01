@@ -1,0 +1,42 @@
+1717176516
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:4:"home";s:8:"elements";a:8:{s:4:"root";b:0;s:11:"storage_key";s:7:"01.home";s:6:"header";a:2:{s:5:"title";s:4:"Home";s:12:"body_classes";s:23:"title-center title-h1h2";}s:11:"frontmatter";s:49:"title: Home
+body_classes: title-center title-h1h2";s:8:"markdown";s:1404:"<header>
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-left">
+                <ul class="menu">
+                    <li><a href="#">UNAIR</a></li>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Cyber Campus</a></li>
+                    <li><a href="#">Multilanguage Switcher</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="logo-bar">
+        <div class="container">
+            <div class="logo">
+                <img src="{{ url('user/themes/yourtheme/images/logo.png') }}" alt="Logo">
+                <div class="site-title">
+                    <h1>Universitas Airlangga</h1>
+                    <h2>Fakultas Vokasi D3 Manajemen Perbankan</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="menu">
+                <li><a href="{{ base_url_absolute }}">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Pendidikan</a></li>
+                <li><a href="#">Mahasiswa</a></li>
+                <li><a href="#">Penelitian</a></li>
+                <li><a href="#">Fasilitas</a></li>
+                <li><a href="#">Event</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+";s:4:"slug";s:4:"home";s:4:"name";s:10:"default.md";s:8:"ordering";b:1;}s:7:"storage";a:6:{s:3:"key";s:4:"home";s:11:"storage_key";s:7:"01.home";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1717175915;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1717175915;}}s:8:"checksum";s:32:"b12363db7bbf29d0aa312f05e7d289c1";}}

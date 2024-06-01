@@ -1,0 +1,9 @@
+version: '1.2'
+timestamp: 1717162105
+count: 1
+index:
+  andino:
+    storage_key: andino
+    storage_timestamp: 1717162105
+    key: andino
+    email: andinoferdiansah@gmail.com

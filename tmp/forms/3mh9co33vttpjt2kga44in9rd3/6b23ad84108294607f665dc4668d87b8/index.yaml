@@ -1,0 +1,31 @@
+form: flex-pages
+id: 'tmp://forms/session/6b23ad84108294607f665dc4668d87b8'
+unique_id: 6b23ad84108294607f665dc4668d87b8
+url: '/pages/perbankan/:add'
+user:
+  username: andino
+  email: andinoferdiansah@gmail.com
+timestamps:
+  created: 1717175833
+  updated: 1717175833
+data: null
+files: {  }
+object:
+  type: pages
+  key: perbankan
+  storage_key: ''
+  timestamp: 0
+  serialized:
+    __META: {  }
+    storage_key: ''
+    parent_key: ''
+    order: '03.'
+    folder: perbankan
+    template: blog
+    lang: ''
+    root: false
+    route: /
+    name: blog
+    header:
+      title: Perbankan
+    frontmatter: "title: Perbankan\n"

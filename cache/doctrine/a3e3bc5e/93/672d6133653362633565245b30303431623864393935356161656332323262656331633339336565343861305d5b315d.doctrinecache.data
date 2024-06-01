@@ -1,0 +1,34 @@
+1717836843
+a:2:{s:7:"content";s:724:"<p>title: 'Universitas Airlangga'
+default_lang: 'en'
+author:
+name: 'Fakultas Vokasi D3 Manajemen Perbankan'
+metadata:
+description: 'Official site of Universitas Airlangga - Fakultas Vokasi D3 Manajemen Perbankan'</p>
+<p>menu:</p>
+<ul>
+<li>text: 'UNAIR'
+url: '#'</li>
+<li>text: 'Email'
+url: '#'</li>
+<li>text: 'Cyber Campus'
+url: '#'</li>
+<li>text: 'Multilanguage Switcher'
+url: '#'</li>
+<li>text: 'Home'
+url: '/'</li>
+<li>text: 'Profile'
+url: '/profile'</li>
+<li>text: 'Pendidikan'
+url: '/pendidikan'</li>
+<li>text: 'Mahasiswa'
+url: '/mahasiswa'</li>
+<li>text: 'Penelitian'
+url: '/penelitian'</li>
+<li>text: 'Fasilitas'
+url: '/fasilitas'</li>
+<li>text: 'Event'
+url: '/event'</li>
+<li>text: 'Kontak'
+url: '/kontak'</li>
+</ul>";s:12:"content_meta";N;}

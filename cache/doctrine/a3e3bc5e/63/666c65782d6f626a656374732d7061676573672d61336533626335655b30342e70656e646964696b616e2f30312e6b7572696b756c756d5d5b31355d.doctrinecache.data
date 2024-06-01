@@ -1,0 +1,22 @@
+1717236785
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:20:"pendidikan/kurikulum";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:9:"Kurikulum";s:12:"body_classes";s:23:"title-center title-h1h2";s:7:"visible";b:1;}s:11:"frontmatter";s:70:"title: Kurikulum
+body_classes: "title-center title-h1h2"
+visible: true";s:8:"markdown";s:2088:"##### Kurikulum
+
+| No. | Mata Kuliah |        | Beban Studi pada Kegiatan (SKS) |        |          | Elemen    | Jenis  |
+| --- | ----------- | ------ | ------------------------------- | ------ | -------- | --------- | ------ | ---------- | --------- |
+|     |             |        |                                 | Kuliah | Tutorial | Praktikum | Jumlah | Kompetensi |           |
+|     |             | Kode   | Nama                            |        |          |           |        | Kode       | Nama      |
+|     |             |        |                                 |        |          |           |        |            |           |
+| 1   | SEMESTER 1  |        |                                 |        |          |           |        |            |           |
+| 1   |             | AGI001 | Agama Islam                     |        |          |           | 2      | MPK        | Pendukung |
+|     |             | AGP001 | Agama Protestan                 |        |          |           |        |            |           |
+|     |             | AGK001 | Agama Khatolik                  |        |          |           |        |            |           |
+|     |             | AGH001 | Agama Hindu                     | 2      | -        | -         | 2      | MPK        | Pendukung |
+|     |             | AGB001 | Agama Budha                     |        |          |           |        |            |           |
+|     |             | AGC001 | Agama Kong Hu Chu               |        |          |           |        |            |           |
+| 2   |             | AKK004 | Akuntansi Dasar                 | 1      | 2        | -         | 3      | MKK        | Utama     |
+| 3   |             | NOP002 | Pancasila                       | 2      | -        | -         | 2      | MPK        | Pendukung |
+| 4   |             | BAI001 | Bahasa Indonesia                | 1      | 1        | -         | 2      | MKB        | Khusus    |
+| 5   |             | EKT002 | Pengantar Ilmu Ekonomi Makro    | 1      | 2        | -         | 3      | MKK        | Utama     |
+";}s:7:"storage";a:6:{s:3:"key";s:20:"pendidikan/kurikulum";s:11:"storage_key";s:26:"04.pendidikan/01.kurikulum";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1717234550;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1717234550;}}s:8:"checksum";s:32:"6e0b45b9fee6b0e715cea296503551a9";}}
