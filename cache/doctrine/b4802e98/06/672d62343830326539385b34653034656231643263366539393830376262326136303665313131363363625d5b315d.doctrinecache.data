@@ -1,0 +1,643 @@
+1717997673
+a:2:{s:7:"content";s:64504:"<p>&lt;!DOCTYPE html&gt;</p>
+<html lang="en-US">
+
+<head> <!-- Start of head  -->
+
+  <meta charset="utf-8">
+
+         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>Home  - D3 Perbankan</title>
+
+  <link rel="shortcut icon" href="http://perbankan.vokasi.unair.ac.id/wp-content/uploads/2016/09/favicon.png" />
+  <link rel='tag' id='shortcode_link' href='https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/backend' />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://perbankan.vokasi.unair.ac.id/wp-content/uploads/2019/07/bank.png"> <link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://perbankan.vokasi.unair.ac.id/wp-content/uploads/2019/07/bank.png"> <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://perbankan.vokasi.unair.ac.id/wp-content/uploads/2019/07/bank.png"> <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://perbankan.vokasi.unair.ac.id/wp-content/uploads/2019/07/bank.png"> <link rel="apple-touch-icon-precomposed" href="http://perbankan.vokasi.unair.ac.id/wp-content/uploads/2019/07/bank.png"> 
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://perbankan.vokasi.unair.ac.id/feed/" /><!-- Feed  -->
+  <link rel="pingback" href="https://perbankan.vokasi.unair.ac.id/xmlrpc.php" />
+
+  <!--[if IE 9]>
+      <link rel="stylesheet" type="text/css" href="https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/sprites/stylesheets/ie9.css" />
+  <![endif]-->
+
+  <!--[if IE 8]>
+      <link rel="stylesheet" type="text/css" href="https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/sprites/stylesheets/ie8.css" />
+      <script type='text/javascript' src='https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/sprites/js/excanvas.js'></script>
+  <![endif]-->
+
+  <!--[if IE 7]>
+      <link rel="stylesheet" type="text/css" href="https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/sprites/fonts/font-awesome-ie7.css" />
+      <link rel="stylesheet" type="text/css" href="https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/sprites/stylesheets/ie7.css" />
+      <script type='text/javascript' src='https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/sprites/js/excanvas.js'></script>
+  <![endif]-->
+
+  <script type="text/javascript">
+
+  </script>
+
+            <script>
+            var ioa_listener_url = 'https://perbankan.vokasi.unair.ac.id/wp-admin/admin-ajax.php',
+                theme_url  = 'https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp',
+                backend_url  = 'https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/backend';
+
+            </script>
+            <meta name='robots' content='max-image-preview:large' />
+
+<link rel="alternate" type="application/rss+xml" title="D-3 Manajemen Perbankan &raquo; Feed" href="https://perbankan.vokasi.unair.ac.id/feed/" />
+<link rel="alternate" type="application/rss+xml" title="D-3 Manajemen Perbankan &raquo; Comments Feed" href="https://perbankan.vokasi.unair.ac.id/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/perbankan.vokasi.unair.ac.id\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.3"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+    img.wp-smiley, img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+    }
+
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://perbankan.vokasi.unair.ac.id/wp-includes/css/dist/block-library/style.min.css?ver=6.5.3' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='base-css' href='https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/sprites/stylesheets/base.css?ver=6.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='layout-css' href='https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/sprites/stylesheets/layout.css?ver=6.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://perbankan.vokasi.unair.ac.id/wp-includes/css/dashicons.min.css?ver=6.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pointer-css' href='https://perbankan.vokasi.unair.ac.id/wp-includes/css/wp-pointer.min.css?ver=6.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='widgets-css' href='https://perbankan.vokasi.unair.ac.id/wp-admin/css/widgets.min.css?ver=6.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css' href='https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp-child/style.css?ver=6.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css' href='https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/sprites/stylesheets/responsive.css?ver=6.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='runtime-css-css' href='https://perbankan.vokasi.unair.ac.id/wp-admin/admin-ajax.php?action=ioalistener&#038;type=runtime_css&#038;ver=6.5.3' type='text/css' media='all' />
+<script type="text/javascript" src="https://perbankan.vokasi.unair.ac.id/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://perbankan.vokasi.unair.ac.id/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/sprites/js/ext.js?ver=6.5.3" id="ext-js-js"></script>
+<script type="text/javascript" src="https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/sprites/js/jquery.bxslider.min.js?ver=6.5.3" id="jquery-bxslider-js"></script>
+<script type="text/javascript" src="https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/sprites/js/jquery.isotope.min.js?ver=6.5.3" id="jquery-isotope-js"></script>
+<script type="text/javascript" src="https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/sprites/js/jquery.prettyPhoto.js?ver=6.5.3" id="jquery-prettyphoto-js"></script>
+<script type="text/javascript" src="https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/sprites/js/jquery.transit.min.js?ver=6.5.3" id="jquery-transit-js"></script>
+<script type="text/javascript" src="https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/sprites/js/jquery.selene.js?ver=6.5.3" id="selene-js"></script>
+<script type="text/javascript" src="https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/sprites/js/jquery.quartz.js?ver=6.5.3" id="quartz-js"></script>
+<script type="text/javascript" id="custom-js-extra">
+/* <![CDATA[ */
+var ioa_localize = {"search_placeholder":"Type something.."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://perbankan.vokasi.unair.ac.id/wp-content/themes/unair-wp/sprites/js/custom.js?ver=6.5.3" id="custom-js"></script>
+<link rel="https://api.w.org/" href="https://perbankan.vokasi.unair.ac.id/wp-json/" /><link rel="alternate" type="application/json" href="https://perbankan.vokasi.unair.ac.id/wp-json/wp/v2/pages/10" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://perbankan.vokasi.unair.ac.id/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.5.3" />
+<link rel="canonical" href="https://perbankan.vokasi.unair.ac.id/" />
+<link rel='shortlink' href='https://perbankan.vokasi.unair.ac.id/' />
+<link rel="alternate" type="application/json+oembed" href="https://perbankan.vokasi.unair.ac.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fperbankan.vokasi.unair.ac.id%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://perbankan.vokasi.unair.ac.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fperbankan.vokasi.unair.ac.id%2F&#038;format=xml" />
+<style type='text/css' id='rad_styler'>  #rpwHGP1584SJ9257FNDXDDQ3IO9H6D7993R  div.text-title-wrap h2.text_title  { font-size : 50px } #rpwHGP1584SJ9257FNDXDDQ3IO9H6D7993R  div.pagination ul li span.current  { color : #f7b500 }  @media (min-width:1024px) {  { display:none; } }  @media (min-width: 768px) and (max-width: 1024px) {  { display:none; } }  @media only screen and (min-width: 768px) and (max-width: 979px) {  { display:none; } }  @media only screen and (min-width: 480px) and (max-width: 767px)  {  { display:none; } }   @media only screen and (max-width: 479px) {  { display:none; } }  </style>             <meta name="description" content="D3 Perbankan Fakultas Vokasi Universitas Airlangga">
+                <meta name="keywords" content="D3 Perbankan Fakultas Vokasi Universitas Airlangga">
+                <style type='text/css'>
+
+                    @media  only screen and (max-width: 767px) {  .skeleton {   width:70%;   } }
+
+                  </style><style id='concave-area-styles'>  /* Concave Stylings */   </style><script type='text/javascript'>  </script>
+
+</head> <!-- End of Head -->
+
+<body class="home page-template-default page page-id-10 style-default" itemscope itemtype="http://schema.org/WebPage" > <!-- Start of body  -->
+
+<div class="super-wrapper    clearfix">
+  <div class="inner-super-wrapper " >
+
+<div class="mobile-head">
+
+    <a href="" class=" ioa-front-icon menuicon- mobile-menu"></a>
+    <a href="https://perbankan.vokasi.unair.ac.id/" id="mobile-logo" class='center' style='max-width:600px'>
+                <img src="http://perbankan.vokasi.unair.ac.id/wp-content/uploads/2019/07/bank.png" alt="logo" />
+    </a>
+
+<a href="" class="majax-search-trigger search-3icon- ioa-front-icon" ></a>
+
+</div>
+
+<div data-url="https://perbankan.vokasi.unair.ac.id/wp-admin/admin-ajax.php" class='majax-search ' >
+
+                <div class="majax-search-pane">
+                   <a href="" class="majax-search-close ioa-front-icon cancel-2icon-"></a>
+
+                    <div class="form">
+                       <form role="search" method="get"  action="https://perbankan.vokasi.unair.ac.id/">
+                          <div>
+                              <input type="text"  autocomplete="off" name="s" class='live_search' value="Type something.." />
+                              <input type="submit"  value="Search" />
+                              <span class="msearch-loader"></span>
+                          </div>
+                      </form>
+                    </div>
+                    <div class="msearch-results clearfix">
+                      <ul>
+
+                      </ul>
+                    </div>
+                </div>
+
+       </div>
+
+<ul id="mobile-menu" class="menu clearfix"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-58"><a href="https://perbankan.vokasi.unair.ac.id/" aria-current="page">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-133"><a href="https://perbankan.vokasi.unair.ac.id/profile/">Profile</a>
+<ul class="sub-menu">
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"><a href="https://perbankan.vokasi.unair.ac.id/visi-dan-misi/">Visi dan Misi</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a href="https://perbankan.vokasi.unair.ac.id/sejarag/">Sejarah</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a href="https://perbankan.vokasi.unair.ac.id/struktur-organisasi/">Struktur Organisasi</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146"><a href="https://perbankan.vokasi.unair.ac.id/staf-pengajar/">Staf Pengajar</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-147"><a href="https://perbankan.vokasi.unair.ac.id/pendidikan/">Pendidikan</a>
+<ul class="sub-menu">
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-159"><a href="https://perbankan.vokasi.unair.ac.id/kalender-akademik/">Kalender Akademik</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158"><a href="https://perbankan.vokasi.unair.ac.id/jadwal-kuliah/">Jadwal Kuliah</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-157"><a href="https://perbankan.vokasi.unair.ac.id/status-akademik/">Status Akademik</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="https://perbankan.vokasi.unair.ac.id/kurikulum/">Kurikulum</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-180"><a href="https://perbankan.vokasi.unair.ac.id/mahasiswa/">Mahasiswa</a>
+<ul class="sub-menu">
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a href="https://perbankan.vokasi.unair.ac.id/kemahasiswaan/">Kemahasiswaan</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href="https://perbankan.vokasi.unair.ac.id/informasi-beasiswa/">Informasi Beasiswa</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-178"><a href="https://perbankan.vokasi.unair.ac.id/ormawa/">Ormawa</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-177"><a href="https://perbankan.vokasi.unair.ac.id/prestasi-mahasiswa/">Prestasi Mahasiswa</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176"><a href="https://perbankan.vokasi.unair.ac.id/alumni/">Alumni</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-199"><a href="https://perbankan.vokasi.unair.ac.id/penelitian/">Penelitian</a>
+<ul class="sub-menu">
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-198"><a href="https://perbankan.vokasi.unair.ac.id/informasi/">Informasi</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-196"><a href="https://perbankan.vokasi.unair.ac.id/penelitian-2/">Penelitian</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195"><a href="https://perbankan.vokasi.unair.ac.id/pengabdian/">Pengabdian</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-208"><a href="https://perbankan.vokasi.unair.ac.id/fasilitas/">Fasilitas</a>
+<ul class="sub-menu">
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207"><a href="https://perbankan.vokasi.unair.ac.id/sarana-umum/">Sarana Umum</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-206"><a href="https://perbankan.vokasi.unair.ac.id/lab/">Lab</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-217"><a href="https://perbankan.vokasi.unair.ac.id/event/">Event</a>
+<ul class="sub-menu">
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-216"><a href="https://perbankan.vokasi.unair.ac.id/informasi-event/">Informasi Event</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-215"><a href="https://perbankan.vokasi.unair.ac.id/dokumentasi/">Dokumentasi</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="https://perbankan.vokasi.unair.ac.id/kontak/">Kontak</a></li>
+</ul>
+<div class="theme-header "  itemscope itemtype="http://schema.org/WPHeader" >
+  <div class="header-cons-area">
+
+                <div id="top-bar" style=""  class="clearfix  header-cons-static header-construtor">
+
+                  <div class="skeleton auto_align clearfix" itemscope itemtype='http://schema.org/SiteNavigationElement'>
+
+                              <div class=" top_layers  right clearfix">
+                                  <div class="menu-wrapper default" style='' data-effect="Grow"  >
+                                       <div class="menu-bar">
+                                         <div class="clearfix ">
+                                               <ul id="menu2" class="menu clearfix"><li  id="menu-item-47" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47   rel     "><a href="http://unair.ac.id/"> UNAIR <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+
+<li  id="menu-item-49" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-49   rel     "><a href="https://cybercampus.unair.ac.id/sso/index.php?SAMLRequest=fVJdT8IwFH038T80fWdjKEYbNoMaIgnqIsMH32p3YYV%2B2duB%2FnvL0KgPmvTp9PR83N7R5ZtWZAsepTU5zZI%2BJWCEraVZ5XRRTXrn9LI4Phoh18qxcRsa8wivLWAg8aVB1l3ktPWGWY4SmeEakAXB5uO7GRskfea8DVZYRcn0Jqcb6Zb1Rur1yjpuQIkXt5YNt27TCAvC1bV2a9doSp6%2BYg32saaILUwNBm5ChPrZWa9%2FEU%2BVDdnJgA1PnykpP52upDk0%2BC%2FWy4GE7Laqyl75MK86ga2swd9Hdk5X1q4UJMLqvX3JEeU2wkuuECgZI4IPMeC1Ndhq8HPwWylg8TjLaROCQ5amu90u%2BZZJedoaLn3CRSLrlAukRTda1rXzP2b6f3b%2B5U2Lb%2FVR%2BkOq%2BPyyfZPpTWmVFO9krJTdXXvgIdYIvo0tJtZrHv52y5KsQ2TdW3ZU1hp0IORSQk1JWhxcf%2B9G3JgP&amp;RelayState=https%3A%2F%2Fwww.google.com%2Fa%2Funair.ac.id%2FServiceLogin%3Fservice%3Dmail%26passive%3Dtrue%26rm%3Dfalse%26continue%3Dhttps%253A%252F%252Fmail.google.com%252Fmail%252F%26ss%3D1%26ltmpl%3Ddefault%26ltmplcache%3D2%26emr%3D1%26osid%3D1"> Email <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+<li  id="menu-item-50" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50   rel     "><a href="https://cybercampus.unair.ac.id/"> Cyber Campus <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+<li  id="menu-item-299" class="mltlngg-menu-switcher menu-item menu-item-type-custom menu-item-object-custom menu-item-299   rel     "><a href="#mltlngg-switcher"> Multilanguage switcher <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+</ul>
+                                       </div>
+                                    </div>
+                                    </div>
+                                                               </div>
+
+                                                  </div>
+                    <span class="border"></span>
+                </div>
+
+                           <div  data-offset-top="0"  class="top-area-wrapper  header-cons-static"  >
+                <div class="top-area  header-construtor" style="" >
+                   <div class="clearfix skeleton  auto_align" itemscope itemtype='http://schema.org/SiteNavigationElement'>
+                                                   <div class=" menu_layers  left clearfix">
+                                                                  <a href="https://perbankan.vokasi.unair.ac.id/" id="logo" class='default' style=';max-width:600px'>
+                                      <img src="http://perbankan.vokasi.unair.ac.id/wp-content/uploads/2019/07/bank.png" style="" alt="logo" data-retina="http://perbankan.vokasi.unair.ac.id/wp-content/uploads/2019/07/bank.png" />
+                                  </a>
+                                                            </div>
+
+                                                            <div class=" menu_layers  right clearfix">
+                                                                  <div style='padding:6px 0px 0px 0px;' data-url="https://perbankan.vokasi.unair.ac.id/wp-admin/admin-ajax.php" class='ajax-search default' >
+
+                                      <a href="" class="ajax-search-trigger ioa-front-icon search-3icon-" ></a>
+                                      <div class="ajax-search-pane">
+                                         <a href="" class="ajax-search-close ioa-front-icon cancel-2icon-"></a>
+                                         <span href="" class="up-dir-1icon- ioa-front-icon tip"></span>
+
+                                          <div class="form">
+                                             <form role="search" method="get"  action="https://perbankan.vokasi.unair.ac.id/">
+                                                <div>
+                                                    <input type="text"  autocomplete="off" name="s" class='live_search' value="Type something.." />
+                                                    <input type="submit"  value="Search" />
+                                                    <span class="search-loader"></span>
+                                                </div>
+                                            </form>
+                                          </div>
+                                          <div class="search-results clearfix">
+                                            <ul>
+
+                                            </ul>
+                                          </div>
+                                      </div>
+
+                                  </div>
+                                                                </div>
+
+                  </div>
+
+                  </div>
+
+                </div>
+
+                           <div  data-offset-top="0"  class=" bottom-area header-cons-static"  >
+                <div class="top-area  header-construtor" style="" >
+                   <div class="clearfix skeleton  auto_align" itemscope itemtype='http://schema.org/SiteNavigationElement'>
+                                                   <div class=" menu_layers  left clearfix">
+
+                                   <div class="menu-wrapper default" data-effect="Grow" style=''>
+                                       <div class="menu-bar">
+                                         <div class="clearfix ">
+                                              <ul id="menu-main-menu" class="menu clearfix"><li  id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-58   rel     "><a href="https://perbankan.vokasi.unair.ac.id/"><i class='ioa-front-icon ioa-front-icon home-3icon- ioa-menu-icon'></i> Home <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+
+<li  id="menu-item-133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-133   rel     "><a href="https://perbankan.vokasi.unair.ac.id/profile/"> Profile <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> 
+<ul class="sub-menu  clearfix     ">  
+    <li  id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115   rel     "><a href="https://perbankan.vokasi.unair.ac.id/visi-dan-misi/"> Visi dan Misi <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+    <li  id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86   rel     "><a href="https://perbankan.vokasi.unair.ac.id/sejarag/"> Sejarah <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+    <li  id="menu-item-132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132   rel     "><a href="https://perbankan.vokasi.unair.ac.id/struktur-organisasi/"> Struktur Organisasi <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+    <li  id="menu-item-146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146   rel     "><a href="https://perbankan.vokasi.unair.ac.id/staf-pengajar/"> Staf Pengajar <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+</ul>
+</li>
+<li  id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-147   rel     "><a href="https://perbankan.vokasi.unair.ac.id/pendidikan/"> Pendidikan <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> 
+<ul class="sub-menu  clearfix     ">  
+    <li  id="menu-item-159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-159   rel     "><a href="https://perbankan.vokasi.unair.ac.id/kalender-akademik/"> Kalender Akademik <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+    <li  id="menu-item-158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158   rel     "><a href="https://perbankan.vokasi.unair.ac.id/jadwal-kuliah/"> Jadwal Kuliah <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+    <li  id="menu-item-157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-157   rel     "><a href="https://perbankan.vokasi.unair.ac.id/status-akademik/"> Status Akademik <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+    <li  id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98   rel     "><a href="https://perbankan.vokasi.unair.ac.id/kurikulum/"> Kurikulum <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+</ul>
+</li>
+<li  id="menu-item-180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-180   rel     "><a href="https://perbankan.vokasi.unair.ac.id/mahasiswa/"> Mahasiswa <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> 
+<ul class="sub-menu  clearfix     ">  
+    <li  id="menu-item-181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181   rel     "><a href="https://perbankan.vokasi.unair.ac.id/kemahasiswaan/"> Kemahasiswaan <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+    <li  id="menu-item-179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179   rel     "><a href="https://perbankan.vokasi.unair.ac.id/informasi-beasiswa/"> Informasi Beasiswa <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+    <li  id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-178   rel     "><a href="https://perbankan.vokasi.unair.ac.id/ormawa/"> Ormawa <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+    <li  id="menu-item-177" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-177   rel     "><a href="https://perbankan.vokasi.unair.ac.id/prestasi-mahasiswa/"> Prestasi Mahasiswa <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+    <li  id="menu-item-176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176   rel     "><a href="https://perbankan.vokasi.unair.ac.id/alumni/"> Alumni <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+</ul>
+</li>
+<li  id="menu-item-199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-199   rel     "><a href="https://perbankan.vokasi.unair.ac.id/penelitian/"> Penelitian <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> 
+<ul class="sub-menu  clearfix     ">  
+    <li  id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-198   rel     "><a href="https://perbankan.vokasi.unair.ac.id/informasi/"> Informasi <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+    <li  id="menu-item-196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-196   rel     "><a href="https://perbankan.vokasi.unair.ac.id/penelitian-2/"> Penelitian <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+    <li  id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195   rel     "><a href="https://perbankan.vokasi.unair.ac.id/pengabdian/"> Pengabdian <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+</ul>
+</li>
+<li  id="menu-item-208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-208   rel     "><a href="https://perbankan.vokasi.unair.ac.id/fasilitas/"> Fasilitas <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> 
+<ul class="sub-menu  clearfix     ">  
+    <li  id="menu-item-207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207   rel     "><a href="https://perbankan.vokasi.unair.ac.id/sarana-umum/"> Sarana Umum <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+    <li  id="menu-item-206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-206   rel     "><a href="https://perbankan.vokasi.unair.ac.id/lab/"> Lab <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+</ul>
+</li>
+<li  id="menu-item-217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-217   rel     "><a href="https://perbankan.vokasi.unair.ac.id/event/"> Event <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> 
+<ul class="sub-menu  clearfix     ">  
+    <li  id="menu-item-216" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-216   rel     "><a href="https://perbankan.vokasi.unair.ac.id/informasi-event/"> Informasi Event <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+    <li  id="menu-item-215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-215   rel     "><a href="https://perbankan.vokasi.unair.ac.id/dokumentasi/"> Dokumentasi <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+</ul>
+</li>
+<li  id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104   rel     "><a href="https://perbankan.vokasi.unair.ac.id/kontak/"> Kontak <span class="spacer" style="border-color:"></span></a> <div class="hoverdir-wrap"><span  style="background:" class="hoverdir"></span></div> </li>
+</ul>                                       </div>
+                                    </div>
+                                    </div>
+                                                               </div>
+
+                  </div>
+
+                  </div>
+
+                </div>
+
+ <div class="skeleton  header-shadow-area auto_align"><span class="sh_left_wing"></span><span class="sh_right_wing"></span> </div>
+
+</div>
+
+</div> <!-- END OF THEME HEADER ~~ Top Bar + Menu + Title -->
+
+<!--
+ Below Title Layout Sidebar
+-->
+
+<div class="page-wrapper page">
+
+    <div class="clearfix  auto_align">
+        <div class="mutual-content-wrap ">
+
+                        <div class="rad-holder  clearfix" data-id="10"><div class="page-section  clearfix last-section " style="z-index:1" id='rpsXWPLESF86Q10FGYR7POR0INY1I44KIXQ'>
+
+    <div class="skeleton section-content auto_align clearfix">
+
+    <div class="rad-container  layout_element  two_third first  top  clearfix" id="rpcEWEPYQ9TDBDP5MR86C1VUPWVGTLM14TR">
+                <div class="rad-inner-container nested clearfix">
+
+<div id="rpwAYQQIKTH59TJEIC1JJ7PFJ5MBUVSOIQE" data-delay="0" class=" image-wrapper clearfix page-rad-component rad-component-spacing  " data-key="rad_image_widget">
+    <div class="image-inner-wrap">
+        <div class="text-title-wrap"  itemscope itemtype="http://schema.org/Thing">
+            <h2 itemprop="name" class="text_title custom-font1"></h2>
+        </div>
+        <div style='width:690px' data-waycheck='none' data-delay='0' class='  image-frame  image-align-none' itemscope itemprop='http://schema.org/ImageObject'> <img src='http://d4radiologi.vokasi.unair.ac.id/wp-content/uploads/2019/04/Berita-7-2.gif' itemprop='url' alt='shortcode image' /> </div>      <h4 itemprop="description" class=" text_caption custom-font1"></h4> </div>
+</div>
+
+<div id="rpwF14ILS1M4CTW4OEE5747BX8XJFSHED8H" class=" post_grid-wrapper clearfix page-rad-component rad-component-spacing  " data-key="rad_post_grid_widget">
+  <div class="post_grid-inner-wrap  iso-parent">
+
+    <div class="text-title-wrap clearfix"  itemscope itemtype="http://schema.org/Thing">
+        <h2 itemprop="name" class="text_title custom-font1"></h2>
+           </div>
+
+    <div class="updatable hoverable">
+        <ul itemscope itemtype="http://schema.org/ItemList" class="isotope posts-grid posts  post-grid-2cols  post-grid-2cols clearfix  "   >
+
+        <li itemscope itemtype="http://schema.org/Article" class="iso-item clearfix hoverable post-378 post type-post status-publish format-standard has-post-thumbnail hentry category-news   ">
+
+               <div class="inner-item-wrap chain-link">
+
+              <div class="image" >
+
+                <a href='https://perbankan.vokasi.unair.ac.id/2019/07/16/mengenal-lebih-dekat-prodi-diploma-iii-manajemen-perbankan/' class=' imageholder ' title=''>     <img itemprop='image'  data-link='https://perbankan.vokasi.unair.ac.id/2019/07/16/mengenal-lebih-dekat-prodi-diploma-iii-manajemen-perbankan/' alt='Mengenal Lebih Dekat Prodi Diploma III Manajemen Perbankan' class='' src='https://perbankan.vokasi.unair.ac.id/wp-content/uploads/2019/07/Unair_IMG_0676-505x300.jpg' width='505' height='300'   /> </a>
+                            <a class="hover" itemprop='url' href="https://perbankan.vokasi.unair.ac.id/2019/07/16/mengenal-lebih-dekat-prodi-diploma-iii-manajemen-perbankan/" >
+                        <i style='color:;background:;' class="hover-link ioa-front-icon hover-link link-3icon-"></i>
+                </a>
+
+              </div>
+
+              <div class="desc">
+                    <h2 itemprop="name" class="custom-font"> <a href="https://perbankan.vokasi.unair.ac.id/2019/07/16/mengenal-lebih-dekat-prodi-diploma-iii-manajemen-perbankan/" class="clearfix" >Mengenal Lebih Dekat Prodi Diploma III Manajemen Perbankan</a></h2>
+
+                  <div class="clearfix">
+                    <p itemprop="description">
+
+        ...                     </p>
+                  </div>
+
+              </div>
+               </div>
+
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Article" class="iso-item clearfix hoverable post-343 post type-post status-publish format-standard has-post-thumbnail hentry category-news   ">
+
+               <div class="inner-item-wrap chain-link">
+
+              <div class="image" >
+
+                <a href='https://perbankan.vokasi.unair.ac.id/2018/11/15/d3-manajemen-perbankan-adakan-kunjungan-bisnis/' class=' imageholder ' title=''>     <img itemprop='image'  data-link='https://perbankan.vokasi.unair.ac.id/2018/11/15/d3-manajemen-perbankan-adakan-kunjungan-bisnis/' alt='D3 Manajemen Perbankan Fakultas Vokasi Unair Adakan Kunjungan Bisnis' class='' src='https://perbankan.vokasi.unair.ac.id/wp-content/uploads/2018/11/Perbankan-Adakan-Kunjungan-Bisnis-ke-OJK-dan-Pocari-Sweat-2-505x300.jpeg' width='505' height='300'   /> </a>
+                            <a class="hover" itemprop='url' href="https://perbankan.vokasi.unair.ac.id/2018/11/15/d3-manajemen-perbankan-adakan-kunjungan-bisnis/" >
+                        <i style='color:;background:;' class="hover-link ioa-front-icon hover-link link-3icon-"></i>
+                </a>
+
+              </div>
+
+              <div class="desc">
+                    <h2 itemprop="name" class="custom-font"> <a href="https://perbankan.vokasi.unair.ac.id/2018/11/15/d3-manajemen-perbankan-adakan-kunjungan-bisnis/" class="clearfix" >D3 Manajemen Perbankan Fakultas Vokasi Unair Adakan Kunjungan Bisnis</a></h2>
+
+                  <div class="clearfix">
+                    <p itemprop="description">
+                      MB News &#8211; Prodi D3 Manajemen Perbankan (MB) Fakultas Vokasi Universitas Airlangga mengadakan...                     </p>
+                  </div>
+
+              </div>
+               </div>
+
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Article" class="iso-item clearfix hoverable post-339 post type-post status-publish format-standard hentry category-news   ">
+
+               <div class="inner-item-wrap chain-link">
+
+              <div class="desc">
+                    <h2 itemprop="name" class="custom-font"> <a href="https://perbankan.vokasi.unair.ac.id/2018/11/15/d3-manajemen-perbankan-juara-2-basket-dekan-cup-fakultas-vokasi/" class="clearfix" >D3 Manajemen Perbankan juara 2 Basket Dekan Cup Fakultas Vokasi</a></h2>
+
+                  <div class="clearfix">
+                    <p itemprop="description">
+                      MB News &#8211; D3 Manajemen Perbankan (MB) berhasil menjuarai peringkat 2 Basket Dekan Cup 2018....                     </p>
+                  </div>
+
+              </div>
+               </div>
+
+        </li>
+
+        <li itemscope itemtype="http://schema.org/Article" class="iso-item clearfix hoverable post-334 post type-post status-publish format-standard has-post-thumbnail hentry category-news   ">
+
+               <div class="inner-item-wrap chain-link">
+
+              <div class="image" >
+
+                <a href='https://perbankan.vokasi.unair.ac.id/2018/11/15/mahasiswa-mb-juara-3-rektor-cup-panahan-unair/' class=' imageholder ' title=''>     <img itemprop='image'  data-link='https://perbankan.vokasi.unair.ac.id/2018/11/15/mahasiswa-mb-juara-3-rektor-cup-panahan-unair/' alt='Mahasiswa MB Juara 3 Rektor Cup Panahan Unair' class='' src='https://perbankan.vokasi.unair.ac.id/wp-content/uploads/2018/11/Mahasiswa-MB-Juara-3-Rektor-Cup-Panahan-Unair-505x300.jpeg' width='505' height='300'   /> </a>
+                            <a class="hover" itemprop='url' href="https://perbankan.vokasi.unair.ac.id/2018/11/15/mahasiswa-mb-juara-3-rektor-cup-panahan-unair/" >
+                        <i style='color:;background:;' class="hover-link ioa-front-icon hover-link link-3icon-"></i>
+                </a>
+
+              </div>
+
+              <div class="desc">
+                    <h2 itemprop="name" class="custom-font"> <a href="https://perbankan.vokasi.unair.ac.id/2018/11/15/mahasiswa-mb-juara-3-rektor-cup-panahan-unair/" class="clearfix" >Mahasiswa MB Juara 3 Rektor Cup Panahan Unair</a></h2>
+
+                  <div class="clearfix">
+                    <p itemprop="description">
+                      MB News &#8211; Mahasiswa MB berhasil memperoleh juara 3 Rektor Cup Panahan Unair, (Sabtu,...                     </p>
+                  </div>
+
+              </div>
+               </div>
+
+        </li>
+    </ul>
+
+    <div class="pagination" itemscope itemtype="http://schema.org/SiteNavigationElement"><ul class="clearfix "><li><span class='page current'>1</span></li><li><a href='https://perbankan.vokasi.unair.ac.id/page/2/' title='2'  itemprop="url" class='page'>2</a></li><li><a href='https://perbankan.vokasi.unair.ac.id/page/3/' title='3'  itemprop="url" class='page'>3</a></li></ul></div>
+    </div>
+
+  </div>
+
+</div>
+<div class="clearfix empty_element"></div>
+<div id="rpwWNF5KLKI2UBMMRNJHLM0DTJ4V0O8E2SH" data-delay="0" class=" image-wrapper clearfix page-rad-component rad-component-spacing  " data-key="rad_image_widget">
+    <div class="image-inner-wrap">
+        <div class="text-title-wrap"  itemscope itemtype="http://schema.org/Thing">
+            <h2 itemprop="name" class="text_title custom-font1"></h2>
+        </div>
+        <div style='width:690px' data-waycheck='none' data-delay='0' class='  image-frame  image-align-none' itemscope itemprop='http://schema.org/ImageObject'> <img src='http://d4radiologi.vokasi.unair.ac.id/wp-content/uploads/2019/04/pengumuman-5.gif' itemprop='url' alt='shortcode image' /> </div>        <h4 itemprop="description" class=" text_caption custom-font1"></h4> </div>
+</div>
+
+<div id="rpwFU6L6J9BPGPPQML9VXJTYD3VQDOOMA5V" class=" post_grid-wrapper clearfix page-rad-component rad-component-spacing  " data-key="rad_post_grid_widget">
+  <div class="post_grid-inner-wrap  iso-parent">
+
+    <div class="text-title-wrap clearfix"  itemscope itemtype="http://schema.org/Thing">
+        <h2 itemprop="name" class="text_title custom-font1"></h2>
+           </div>
+
+    <div class="updatable hoverable">
+        <ul itemscope itemtype="http://schema.org/ItemList" class="isotope posts-grid posts  post-grid-3cols  post-grid-3cols clearfix  chain-animated"  data-chain="scale-out" >
+            </ul>
+
+    </div>
+
+  </div>
+
+</div>
+<div class="clearfix empty_element"></div>      
+        </div>
+    </div>
+
+    <div class="rad-container  layout_element  one_third last top  clearfix" id="rpcX6Y9DU62UB458SY1QHQ5D8166XB6B5SD">
+                <div class="rad-inner-container nested clearfix">
+
+<div id="rpwQFJCBVL3UPR2M83WCBDVC0A96EIOLCU4" class=" video-wrapper clearfix page-rad-component rad-component-spacing  " data-key="rad_video_widget">
+    <div class="video-inner-wrap" >
+
+        <div class="text-title-wrap"   itemscope itemtype="http://schema.org/Thing">
+                <h2 itemprop="name" class="text_title custom-font1"></h2>
+                    <div class="ioa-video"> 
+                        <iframe loading="lazy" title="Profil PPKMB Fakultas  Vokasi UNAIR 2016" width="505" height="284" src="https://www.youtube.com/embed/pM8Vhzq5uYE?wmode=transparent"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen wmode="Opaque"></iframe>               <h4  class=" text_caption custom-font1"></h4>           </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="rpwWNG4PQTUFIMHNBDTQIE9WVE2F565RUO1" class=" video-wrapper clearfix page-rad-component rad-component-spacing  " data-key="rad_video_widget">
+    <div class="video-inner-wrap" >
+
+        <div class="text-title-wrap"   itemscope itemtype="http://schema.org/Thing">
+                <h2 itemprop="name" class="text_title custom-font1"></h2>
+                    <div class="ioa-video"> 
+                        <iframe loading="lazy" title="Liming Vocational University was Visited Universitas Airlangga to Make Collaboration" width="505" height="284" src="https://www.youtube.com/embed/ZkTC8YKO2lA?start=3&feature=oembed"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen wmode="Opaque"></iframe>              <h4  class=" text_caption custom-font1"></h4>           </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="rpwGUJ3AC87VE1CGU2UOWB2LEQC57YYYVMK" data-delay="0" class=" image-wrapper clearfix page-rad-component rad-component-spacing  " data-key="rad_image_widget">
+    <div class="image-inner-wrap">
+        <div class="text-title-wrap"  itemscope itemtype="http://schema.org/Thing">
+            <h2 itemprop="name" class="text_title custom-font1"></h2>
+        </div>
+        <div style='width:504px' data-waycheck='none' data-delay='0' class='  image-frame  image-align-none' itemscope itemprop='http://schema.org/ImageObject'> <img src='http://d4radiologi.vokasi.unair.ac.id/wp-content/uploads/2019/04/DID-YOU-KNOW-FRV3.gif' itemprop='url' alt='shortcode image' /> </div>       <h4 itemprop="description" class=" text_caption custom-font1"></h4> </div>
+</div>
+
+<div id="rpwBQMFINVGQ3820TUKHJA65BI00NFR5T1F" class=" post_slider-wrapper clearfix page-rad-component rad-component-spacing  " data-key="rad_post_slider_widget">
+  <div class="post_slider-inner-wrap" >
+
+    <div class="text-title-wrap"  itemscope itemtype="http://schema.org/Thing">
+      <h2 itemprop="name" class="text_title  custom-font1"></h2>
+    </div>
+
+    <div data-arrow_control="true" data-autoplay="true" data-duration="4" data-caption="true" data-width="500" data-effect_type="scroll" data-height="500" class="ioaslider quartz rad-slider clearfix " >
+           <div class="items-holder">
+
+        </div>
+    </div>
+
+  </div>
+
+</div>
+<div class="clearfix empty_element"></div>      
+        </div>
+    </div>
+
+    </div>
+    </div>
+
+</div>                  
+
+            <div class="skeleton clearfix auto_align">          
+
+<div id="comments" class="comments-area">
+
+</div><!-- #comments -->            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div id="footer" itemscope itemtype="http://schema.org/WPFooter">
+    <!-- Footer Widgets area -->
+
+<div class="inner-footer-wrapper page-content">
+   <div  class=" clearfix skeleton auto_align">
+
+    <div class="mobile_footer_widget">
+      <div class="footer-cols  clearfix"></div>    </div>
+
+     <div class="footer-cols  col one_fourth clearfix"></div><div class="footer-cols  col one_fourth clearfix"></div><div class="footer-cols  col one_fourth clearfix"></div><div class="footer-cols  col one_fourth last clearfix"></div>     
+
+     </div>
+   </div>
+
+    <!-- Footer Menu area -->
+
+ <div id="footer-menu">
+    <div  class=" clearfix  skeleton auto_align "  itemscope itemtype='http://schema.org/SiteNavigationElement'>
+
+             <p class="footer-text">  Copyright 2019. USI Fakultas Vokasi Universitas Airlangga. All Rights Reserved </p>
+
+             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="color: #fff; float: right; font-size: 12px; line-height: initial; font-family: 'Open Sans', sans-serif;">
+                  <p><strong style="color: #fff;">FAKULTAS VOKASI</strong></p>
+                  <p>Kampus B UNAIR - Jl. Dharmawangsa Dalam No. 28-30, Surabaya – 60286&nbsp;<br>Telp. Telp. (031) 5033869, 5014460<br> Fax. 99005114<br>Email : info@vokasi.unair.ac.id</p>
+              </div>
+      </div>
+
+   </div>
+
+</div>
+
+  </div>
+</div>
+
+<a href="" class="back-to-top  angle-upicon- ioa-front-icon"></a>
+
+            <script type="text/javascript">
+                        </script>
+            <script type="text/javascript" src="https://perbankan.vokasi.unair.ac.id/wp-includes/js/comment-reply.min.js?ver=6.5.3" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+
+<script type="text/javascript" src="https://perbankan.vokasi.unair.ac.id/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="https://perbankan.vokasi.unair.ac.id/wp-includes/js/jquery/ui/tabs.min.js?ver=1.13.2" id="jquery-ui-tabs-js"></script>
+<script type="text/javascript" src="https://perbankan.vokasi.unair.ac.id/wp-includes/js/jquery/ui/accordion.min.js?ver=1.13.2" id="jquery-ui-accordion-js"></script>
+<script type="text/javascript" src="https://perbankan.vokasi.unair.ac.id/wp-includes/js/jquery/jquery.color.min.js?ver=2.2.0" id="jquery-color-js"></script>
+<script type="text/javascript" id="mediaelement-core-js-before">
+/* <![CDATA[ */
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://perbankan.vokasi.unair.ac.id/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17" id="mediaelement-core-js"></script>
+<script type="text/javascript" src="https://perbankan.vokasi.unair.ac.id/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.5.3" id="mediaelement-migrate-js"></script>
+<script type="text/javascript" id="mediaelement-js-extra">
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://perbankan.vokasi.unair.ac.id/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=6.5.3" id="wp-mediaelement-js"></script>
+</body>
+</html>";s:12:"content_meta";N;}

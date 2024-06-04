@@ -135,7 +135,7 @@
                     <div>
                         <section class="home-posts" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 976px; width: 100%">
                             {% set collection = page.find('/blog').children %}
-                            {% set limit = 2 %}
+                            {% set limit = 4 %}
                             {% set ignore_url_param_array = [ 'event' ] %}
                             {% do paginate( collection, limit, ignore_url_param_array ) %}
 
@@ -179,7 +179,7 @@
                     <div>
                         <section class="home-posts" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 976px; width: 100%">
                             {% set collection = page.find('/blog').children %}
-                            {% set limit = 2 %}
+                            {% set limit = 4 %}
                             {% set ignore_url_param_array = [ 'event' ] %}
                             {% do paginate( collection, limit, ignore_url_param_array ) %}
 

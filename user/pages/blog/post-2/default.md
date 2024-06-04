@@ -6,3 +6,5 @@ banner: banner.jpg
 ---
 
 ##### Ini adalah post 2
+
+![banner](banner.jpg "banner")

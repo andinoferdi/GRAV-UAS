@@ -1,6 +1,6 @@
 ---
-title: 'Visi dan Misi'
-body_classes: 'title-center title-h1h2'
+title: "Visi dan Misi"
+body_classes: "title-center title-h1h2"
 visible: true
 ---
 
@@ -14,7 +14,7 @@ Menjadi program studi yang terkemuka dalam penyediaan tenaga operasional perbank
 2. Melakukan penelitian utamanya dibidang keuangan dan perbankan
 3. Melakukan pengabdian masyarakat sesuai dengan Tridharma Perguruan Tinggi
 
-### Tujuan 
+### Tujuan
 
 Lulusan dari Program Studi D-III Manajemen Perbankan diharapkan memiliki kompetensi utama:
 

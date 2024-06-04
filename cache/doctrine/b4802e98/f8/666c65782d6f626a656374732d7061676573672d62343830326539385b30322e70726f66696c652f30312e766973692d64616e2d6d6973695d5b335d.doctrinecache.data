@@ -1,0 +1,22 @@
+1717384002
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:21:"profile/visi-dan-misi";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:13:"Visi dan Misi";s:12:"body_classes";s:23:"title-center title-h1h2";s:7:"visible";b:1;}s:11:"frontmatter";s:76:"title: "Visi dan Misi"
+body_classes: "title-center title-h1h2"
+visible: true";s:8:"markdown";s:1394:"### Visi
+
+Menjadi program studi yang terkemuka dalam penyediaan tenaga operasional perbankan/lembaga keuangan non bank yang profesional serta menjadi pusat pendidikan & pelatihan bagi karyawan bank dan lembaga keuangan non bank di Indonesia.
+
+### Misi
+
+1. Mendidik para tenaga operasional bank melalui proses pendidikan dan pengajaran yang menghasilkan lulusan yang berkualitas sesuai dengan harapan dan perkembangan industri perbankan dan lembaga keuangan non bank di Indonesia.
+2. Melakukan penelitian utamanya dibidang keuangan dan perbankan
+3. Melakukan pengabdian masyarakat sesuai dengan Tridharma Perguruan Tinggi
+
+### Tujuan
+
+Lulusan dari Program Studi D-III Manajemen Perbankan diharapkan memiliki kompetensi utama:
+
+1. Mampu menyelesaikan pekerjaan bidang pelayanan nasabah dan pemasaran bank dan lembaga keuangan non bank, memilih metode yang sesuai dengan menganalisis data operasional perbankan dan lembaga keuangan non bank, serta mampu menunjukkan kinerja dengan mutu dan kuantitas yang terukur.
+2. Menguasai konsep teoritis bidang operasional dan supporting unit di perbankan dan lembaga keuangan non bank, serta mampu memformulasikan penyelesaian masalah operasional perbankan.
+3. Mampu mengelola kelompok kerja dan menyusun laporan tertulis secara komprehensif.
+4. Bertanggung jawab pada pekerjaan sendiri dan dapat diberi tanggung jawab atas pencapaian hasil kerja kelompok.
+";}s:7:"storage";a:6:{s:3:"key";s:21:"profile/visi-dan-misi";s:11:"storage_key";s:27:"02.profile/01.visi-dan-misi";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1717376718;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1717376718;}}s:8:"checksum";s:32:"9a85b78bc31bd59ad386d180c4c6904e";}}

@@ -1,0 +1,12 @@
+1717384096
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:6:"kontak";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:6:"Kontak";s:12:"body_classes";s:23:"title-center title-h1h2";s:7:"visible";b:1;}s:11:"frontmatter";s:69:"title: "Kontak"
+body_classes: "title-center title-h1h2"
+visible: true";s:8:"markdown";s:171:"### Kontak
+
+ALAMAT :
+
+Kantor Manajemen Fakultas Vokasi
+Jl. Srikana 65 Surabaya 60286
+Telpon : 031-5033869, 031-5053156; Faks : 031-5053156
+e-mail: info@vokasi.unair.ac.id
+";}s:7:"storage";a:6:{s:3:"key";s:6:"kontak";s:11:"storage_key";s:9:"05.kontak";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1717382371;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1717382371;}}s:8:"checksum";s:32:"9c5372ae975e3771b64e54a1616cf34e";}}

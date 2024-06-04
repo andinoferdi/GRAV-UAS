@@ -1,0 +1,22 @@
+1717393733
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:21:"penelitian/penelitian";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:10:"Penelitian";s:12:"body_classes";s:23:"title-center title-h1h2";s:7:"visible";b:1;}s:11:"frontmatter";s:73:"title: "Penelitian"
+body_classes: "title-center title-h1h2"
+visible: true";s:8:"markdown";s:2864:"### Penelitian
+
+| No  | Nama Dosen           | Kegiatan                                                                                      | Waktu | Tingkat (Lokal, Nasional, Internasional) |
+| --- | -------------------- | --------------------------------------------------------------------------------------------- | ----- | ---------------------------------------- |
+| 1   | Fitri Ismiyanti      | **Research Grant:**                                                                           |       |                                          |
+|     |                      | Corporate Governance And The Effect Of Openness In Ownership Structure                        | 2014  | Lokal                                    |
+|     |                      | **Research Grant:**                                                                           |       |                                          |
+|     |                      | Pengalaman Investasi dan Ekspektasi Return Investor dengan Gender Sebagai Variabel Pemoderasi | 2014  | Lokal                                    |
+|     |                      | **Research Grant:**                                                                           |       |                                          |
+|     |                      | Loan Growth And Riskiness Of Banks                                                            | 2013  | Lokal                                    |
+|     |                      | **Research Grant:**                                                                           |       |                                          |
+|     |                      | Equity Market Timing Dan Struktur Modal Pada Perusahaan Keluarga Indonesia                    | 2014  | Lokal                                    |
+| 2   | Rahmat Heru Setianto | **Research Grant:**                                                                           |       |                                          |
+|     |                      | Harga Properti Dan Kredit Perbankan di Indonesia: Analisis Agregat dan Disagregat             | 2014  | Lokal                                    |
+|     |                      | **Research Grant:**                                                                           |       |                                          |
+|     |                      | Safety Climate, Employee Safety Voice dan Satisfaction to The Company                         | 2014  | Lokal                                    |
+|     |                      | **Research Grant:**                                                                           |       |                                          |
+|     |                      | Pengaruh Perceived Organizational Support dan Social Comparison Terhadap Work Attitude        | 2014  | Lokal                                    |
+";}s:7:"storage";a:6:{s:3:"key";s:21:"penelitian/penelitian";s:11:"storage_key";s:27:"05.Penelitian/02.penelitian";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1717387285;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1717387285;}}s:8:"checksum";s:32:"da2efd2599a769d2eb3349dc6e166273";}}

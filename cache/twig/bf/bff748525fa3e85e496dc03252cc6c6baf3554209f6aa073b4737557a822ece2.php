@@ -375,7 +375,7 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
             $context["collection"] = $this->getAttribute($this->getAttribute(($context["page"] ?? null), "find", [0 => "/blog"], "method"), "children", []);
             // line 138
             echo "                            ";
-            $context["limit"] = 2;
+            $context["limit"] = 4;
             // line 139
             echo "                            ";
             $context["ignore_url_param_array"] = [0 => "event"];
@@ -472,7 +472,7 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
             $context["collection"] = $this->getAttribute($this->getAttribute(($context["page"] ?? null), "find", [0 => "/blog"], "method"), "children", []);
             // line 182
             echo "                            ";
-            $context["limit"] = 2;
+            $context["limit"] = 4;
             // line 183
             echo "                            ";
             $context["ignore_url_param_array"] = [0 => "event"];
@@ -840,7 +840,7 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
                     <div>
                         <section class=\"home-posts\" style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 976px; width: 100%\">
                             {% set collection = page.find('/blog').children %}
-                            {% set limit = 2 %}
+                            {% set limit = 4 %}
                             {% set ignore_url_param_array = [ 'event' ] %}
                             {% do paginate( collection, limit, ignore_url_param_array ) %}
 
@@ -884,7 +884,7 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
                     <div>
                         <section class=\"home-posts\" style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 976px; width: 100%\">
                             {% set collection = page.find('/blog').children %}
-                            {% set limit = 2 %}
+                            {% set limit = 4 %}
                             {% set ignore_url_param_array = [ 'event' ] %}
                             {% do paginate( collection, limit, ignore_url_param_array ) %}
 
@@ -977,7 +977,7 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
 
 </body>
 </html>
-", "partials/base.html.twig", "C:\\xampp\\htdocs\\grav-admin\\user\\themes\\quark\\templates\\partials\\base.html.twig");
+", "partials/base.html.twig", "C:\\xampp\\htdocs\\GRAV-UAS\\user\\themes\\quark\\templates\\partials\\base.html.twig");
     }
     private $deferred;
 }

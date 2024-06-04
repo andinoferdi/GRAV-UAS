@@ -1,24 +1,85 @@
 ---
-title: Kurikulum
+title: "Kurikulum"
 body_classes: "title-center title-h1h2"
 visible: true
 ---
 
-##### Kurikulum
+### Kurikulum
 
-| No. | Mata Kuliah |        | Beban Studi pada Kegiatan (SKS) |        |          | Elemen    | Jenis  |
-| --- | ----------- | ------ | ------------------------------- | ------ | -------- | --------- | ------ | ---------- | --------- |
-|     |             |        |                                 | Kuliah | Tutorial | Praktikum | Jumlah | Kompetensi |           |
-|     |             | Kode   | Nama                            |        |          |           |        | Kode       | Nama      |
-|     |             |        |                                 |        |          |           |        |            |           |
-| 1   | SEMESTER 1  |        |                                 |        |          |           |        |            |           |
-| 1   |             | AGI001 | Agama Islam                     |        |          |           | 2      | MPK        | Pendukung |
-|     |             | AGP001 | Agama Protestan                 |        |          |           |        |            |           |
-|     |             | AGK001 | Agama Khatolik                  |        |          |           |        |            |           |
-|     |             | AGH001 | Agama Hindu                     | 2      | -        | -         | 2      | MPK        | Pendukung |
-|     |             | AGB001 | Agama Budha                     |        |          |           |        |            |           |
-|     |             | AGC001 | Agama Kong Hu Chu               |        |          |           |        |            |           |
-| 2   |             | AKK004 | Akuntansi Dasar                 | 1      | 2        | -         | 3      | MKK        | Utama     |
-| 3   |             | NOP002 | Pancasila                       | 2      | -        | -         | 2      | MPK        | Pendukung |
-| 4   |             | BAI001 | Bahasa Indonesia                | 1      | 1        | -         | 2      | MKB        | Khusus    |
-| 5   |             | EKT002 | Pengantar Ilmu Ekonomi Makro    | 1      | 2        | -         | 3      | MKK        | Utama     |
+Kurikulum Program Studi D-III Manajemen Perbankan ditetapkan berdasarkan Keputusan Rektor Universitas Airlangga No.14665/UN3/KR/2013.
+
+| No.            | Mata Kuliah | Beban Studi pada Kegiatan (SKS)        |        |          |           |         | Elemen Kompetensi | Jenis Kompetensi | Prasyarat     |
+| -------------- | ----------- | -------------------------------------- | ------ | -------- | --------- | ------- | ----------------- | ---------------- | ------------- |
+|                | Kode        | Nama                                   | Kuliah | Tutorial | Praktikum | Jumlah  | Kode              | Nama             | Kuliah        |
+| **1**          | **2**       | **3**                                  | **4**  | **5**    | **6**     | **1**   | **2**             | **3**            | **4**         |
+| **SEMESTER 1** |             |                                        |        |          |           |         |                   |                  |               |
+|                | AGI001      | Agama Islam                            |        |          |           |         |                   |                  |               |
+|                | AGP001      | Agama Protestan                        |        |          |           |         |                   |                  |               |
+|                | AGK001      | Agama Khatolik                         |        |          |           |         |                   |                  |               |
+| 1              | AGH001      | Agama Hindu                            | 2      |          | -         | 2       | MPK               | Pendukung        | -             |
+|                | AGB001      | Agama Budha                            |        |          |           |         |                   |                  |               |
+|                | AGC001      | Agama Kong Hu Chu                      |        |          |           |         |                   |                  |               |
+| 2              | AKK004      | Akuntansi Dasar                        | 1      | 2        | -         | 3       | MKK               | Utama            | -             |
+| 3              | NOP002      | Pancasila                              | 2      | -        | -         | 2       | MPK               | Pendukung        | -             |
+| 4              | BAI001      | Bahasa Indonesia                       | 1      | 1        | -         | 2       | MKB               | Khusus           | -             |
+| 5              | EKT002      | Pengantar Ilmu Ekonomi Makro           | 1      | 2        | -         | 3       | MKK               | Utama            | -             |
+| 6              | EKM001      | Perbankan                              | 1      | 2        | -         | 3       | MKK               | Utama            | -             |
+| 7              | NOP003      | Kewarganegaraan                        | 1      | 1        | -         | 2       | MPK               | Khusus           | -             |
+| 8              | MNU008      | Pengantar Manajemen                    | 2      | 1        | -         | 3       | MKK               | Utama            | -             |
+|                |             | **Jumlah beban Studi pada Semester 1** | **11** | **9**    | **-**     | **20**  |                   |                  |               |
+| **SEMESTER 2** |             |                                        |        |          |           |         |                   |                  |               |
+| 9              | SOK001      | Komunikasi Bisnis                      | 1      | 2        | -         | 3       | MKK               | Utama            | -             |
+| 10             | EKM007      | Praktikum Perbankan                    | -      | -        | 3         | 3       | MKK               | Utama            | EKM001        |
+| 11             | EKM002      | Ekonomi Moneter                        | 1      | 2        | -         | 3       | MKK               | Pendukung        | EKT002        |
+| 12             | MNP001      | Dasar-Dasar Pemasaran                  | 3      | -        | -         | 3       | MKK               | Utama            | -             |
+| 13             | AKK013      | Akuntansi Bank I                       | 1      | 2        | -         | 3       | MKB               | Utama            | AKK004        |
+| 14             | BAE001      | Bahasa Inggris                         | 1      | 1        | -         | 2       | MKK               | Pendukung        | -             |
+| 15             | MNK031      | Penganggaran Perusahaan                | 1      | 1        | -         | 2       | MKK               | Utama            | AKK004        |
+|                |             | **Jumlah beban Studi pada Semester 2** | **8**  | **8**    | **3**     | **19**  |                   |                  |               |
+| **SEMESTER 3** |             |                                        |        |          |           |         |                   |                  |               |
+| 16             | MNK021      | Analisa Laporan Keuangan               | 1      | 2        | -         | 3       | MKK               | Utama            | AKK004        |
+| 17             | EKI001      | Perdagangan Internasional              | 1      | 2        | -         | 3       | MKB               | Utama            | EKM001        |
+| 18             | MAS001      | Statistik Deskriptif                   | 1      | 2        | -         | 3       | MKK               | Khusus           | -             |
+| 19             | BAE040      | Praktikum Bahasa Inggris I             | -      | -        | 2         | 2       | MKK               | Khusus           | BAE001        |
+| 20             | MNK001      | Manajemen Keuangan                     | 1      | 2        | -         | 3       | MKK               | Utama            | -             |
+| 21             | AKK023      | Praktikum Akuntansi Bank I             | -      | -        | 3         | 3       | MKK               | Utama            | AKK013        |
+| 22             | AKK014      | Akuntansi Bank II                      | 1      | 2        |           | 3       | MKB               | Utama            | AKK013        |
+|                |             | **Jumlah beban Studi pada Semester 3** | **5**  | **10**   | **5**     | **20**  |                   |                  |               |
+|                |             |                                        |        |          |           |         |                   |                  |               |
+| **SEMESTER 4** |             |                                        |        |          |           |         |                   |                  |               |
+| 23             | MND001      | Manajemen Kredit                       | 1      | 2        | -         | 3       | MKB               | Utama            | MNK021        |
+| 24             | MNU020      | Manajemen Supervisi                    | 1      | 2        | -         | 3       | MKB               | Utama            | MNU008        |
+| 25             | BAE041      | Praktikum Bahasa Inggris II            | -      | -        | 2         | 2       | MKK               | Khusus           | BAE040        |
+| 26             | MNW002      | Kewirausahaan                          | 1      | 2        | -         | 3       | MKB               | Khusus           | -             |
+| 27             | AKK023      | Praktikum Akuntansi Bank II            | -      | -        | 3         | 3       | MKK               | Utama            | AKK014        |
+| 28             | HKT004      | Aspek Hukum dalam Bisnis               | 3      | -        | -         | 3       | MBB               | Pendukung        | -             |
+| 29             | EKI004      | Lembaga Keuangan                       | 3      | -        | -         | 3       | MKK               | Utama            | -             |
+|                |             | **Jumlah beban Studi pada Semester 4** | **9**  | **6**    | **5**     | **20**  |                   |                  |               |
+| **SEMESTER 5** |             |                                        |        |          |           |         |                   |                  |               |
+| 30             | HKT003      | Hukum Perbankan                        | 3      | -        | -         | 3       | MKB               | Pendukung        | HKT004        |
+| 31             | ETE002      | Etika Profesi                          | 1      | 2        | -         | 3       | MPB               | Utama            | -             |
+| 32             | MNK009      | Praktikum Manajemen Kredit             | -      | -        | 3         | 3       | MKK               | Utama            | MND001        |
+| 33             | PJK001      | Dasar-Dasar Perpajakan                 | 1      | 2        | -         | 3       | MKK               | Pendukung        | -             |
+| 34             | AKA004      | Audit Bank                             | 1      | 2        | -         | 3       | MKK               | Utama            | AKA0013       |
+| 35             | MNJ002      | Studi Kelayakan Bisnis                 | 1      | 2        | -         | 3       | MKK               | Utama            | MNK031 MNK001 |
+| 36             | MNP007      | Manajemen Pemasaran Bank               | 1      | 2        | -         | 3       | MKB               | Utama            | MNP001        |
+|                |             | **Jumlah beban Studi pada Semester 5** | **8**  | **10**   | **3**     | **21**  |                   |                  |               |
+|                |             |                                        |        |          |           |         |                   |                  |               |
+| **SEMESTER 6** |             |                                        |        |          |           |         |                   |                  |               |
+| 37             | SOK001      | Negotiation Skill                      | 1      | 2        | -         | 3       | MKB               | Khusus           | -             |
+| 38             | EKM051      | Perbankan Syariah                      | 1      | 2        | -         | 3       | MKK               | Utama            | EKM001        |
+| 39             | KKL041      | PKL\*                                  | -      | -        | 3         | 3       | MKK               | Utama            | -             |
+| 40             | -           | Tugas Akhir\*                          |        |          | 3         | 3       | MKB               | Utama            | -             |
+|                |             | **Jumlah beban Studi pada Semester 4** | **2**  | **4**    | **4**     | **12**  |                   |                  |               |
+|                |             | **Total**                              | **43** | **47**   | **20**    | **112** |                   |                  |               |
+
+_Keterangan: (1) PKL dan Tugas Akhir boleh diprogram oleh mahasiswa bila telah menempuh sekurang-kurangnya 85 sks dan sesuai rekomendasi KPS._
+
+### Media Pembelajaran
+
+Media pembelajaran yang digunakan diprogram studi Manajemen Perbankan adalah sebagai berikut:
+
+1. **LCD**, merupakan alat bantu utama yang digunakan oleh dosen pengajar untuk memaparkan poin-poin materi yang disampaikan.
+2. **Whiteboard**, merupakan media pembelajaran yang sudah disediakan untuk memudahkan dosen pengajar dalam menjelaskan materi kuliah lebih detail dan melibatkan mahasiswa dalam diskusi.
+3. **Referensi dari internet**, digunakan untuk menambah pengetahuan mahasiswa, utamanya bahasa Inggris. Pemanfaatan media ini diharapkan mampu meningkatkan kemampuan literasi dan penguasaan bahasa Inggris baik di kalangan dosen maupun mahasiswa.
+4. **Komputer**, digunakan sebagai alat pendukung untuk mata kuliah yang berbentuk praktik seperti Praktikum Bank Mini dan juga Praktikum Komputer Manajemen. Media ini diharapkan mampu meningkatkan keterampilan mereka sehingga bisa menerapkan ilmu yang diperoleh untuk bekerja secara efisien.
