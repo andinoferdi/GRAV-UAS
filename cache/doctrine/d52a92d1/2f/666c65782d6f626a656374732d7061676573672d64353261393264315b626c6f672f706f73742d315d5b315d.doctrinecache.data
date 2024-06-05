@@ -1,0 +1,7 @@
+1717585705
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:11:"blog/post-1";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:5:{s:5:"title";s:59:"Mengenal Lebih Dekat Prodi Diploma 4 Perbankan Dan Keuangan";s:12:"body_classes";s:23:"title-center title-h1h2";s:7:"visible";b:1;s:6:"banner";s:10:"banner.jpg";s:11:"media_order";s:10:"banner.jpg";}s:11:"frontmatter";s:165:"title: "Mengenal Lebih Dekat Prodi Diploma 4 Perbankan Dan Keuangan"
+body_classes: "title-center title-h1h2"
+visible: true
+banner: banner.jpg
+media_order: banner.jpg";s:8:"markdown";s:31:"![banner](banner.jpg "banner")
+";}s:7:"storage";a:6:{s:3:"key";s:11:"blog/post-1";s:11:"storage_key";s:11:"blog/post-1";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1717394528;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1717394528;}}s:8:"checksum";s:32:"86b8bbd9a02ce1db44f6742f6bf65860";}}

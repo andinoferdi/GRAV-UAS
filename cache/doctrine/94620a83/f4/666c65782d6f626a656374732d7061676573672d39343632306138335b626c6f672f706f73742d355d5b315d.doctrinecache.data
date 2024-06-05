@@ -1,0 +1,8 @@
+1717585712
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:11:"blog/post-5";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:4:{s:5:"title";s:17:"Ini adalah post 5";s:12:"body_classes";s:23:"title-center title-h1h2";s:7:"visible";b:1;s:6:"banner";s:10:"banner.jpg";}s:11:"frontmatter";s:97:"title: Ini adalah post 5
+body_classes: "title-center title-h1h2"
+visible: true
+banner: banner.jpg";s:8:"markdown";s:56:"##### Ini adalah post 5
+
+![banner](banner.jpg "banner")
+";}s:7:"storage";a:6:{s:3:"key";s:11:"blog/post-5";s:11:"storage_key";s:11:"blog/post-5";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1717375486;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1717375486;}}s:8:"checksum";s:32:"f7bc538f7ec03abe2a7e1162f2c461e4";}}

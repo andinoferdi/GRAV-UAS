@@ -1,0 +1,5 @@
+1717585691
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:9:"fasilitas";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:9:"fasilitas";s:12:"body_classes";s:23:"title-center title-h1h2";s:7:"visible";b:1;}s:11:"frontmatter";s:72:"title: "fasilitas"
+body_classes: "title-center title-h1h2"
+visible: true";s:8:"markdown";s:14:"### fasilitas
+";}s:7:"storage";a:7:{s:3:"key";s:9:"fasilitas";s:11:"storage_key";s:12:"06.Fasilitas";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1717387361;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1717387361;}}s:8:"children";a:2:{s:14:"01.sarana-umum";b:0;s:6:"02.lab";b:0;}s:8:"checksum";s:32:"14f97d22e03eae6041e85e13268489a9";}}

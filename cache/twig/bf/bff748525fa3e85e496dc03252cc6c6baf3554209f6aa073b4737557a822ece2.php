@@ -68,68 +68,60 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
 ";
         // line 8
         $this->displayBlock('head', $context, $blocks);
-        // line 67
+        // line 66
         $this->displayBlock('stylesheets', $context, $blocks);
+        // line 74
+        echo "
+";
         // line 75
-        echo "
-";
-        // line 76
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 81
+        // line 80
         echo "
 ";
-        // line 82
+        // line 81
         $this->displayBlock('assets', $context, $blocks);
-        // line 86
+        // line 85
         echo "</head>
 
-
-
-
-
 <body id=\"top\" class=\"";
-        // line 92
+        // line 87
         $this->displayBlock('body_classes', $context, $blocks);
         echo "\">
     <div id=\"page-wrapper\">
-    ";
-        // line 94
+        ";
+        // line 89
         $this->displayBlock('header', $context, $blocks);
-        // line 125
+        // line 117
         echo "
-    ";
-        // line 126
+        ";
+        // line 118
         $this->displayBlock('hero', $context, $blocks);
-        // line 127
+        // line 119
         echo "
         <section id=\"start\">
-        ";
-        // line 129
+            ";
+        // line 121
         $this->displayBlock('body', $context, $blocks);
-        // line 246
+        // line 290
         echo "        </section>
     </div>
 
     ";
-        // line 250
+        // line 294
         echo "    ";
         $this->displayBlock('footer', $context, $blocks);
-        // line 253
+        // line 297
         echo "
     ";
-        // line 254
+        // line 298
         $this->displayBlock('mobile', $context, $blocks);
-        // line 266
+        // line 310
         echo "
-";
-        // line 267
+    ";
+        // line 311
         $this->displayBlock('bottom', $context, $blocks);
-        // line 270
-        echo "    ";
-        // line 271
-        echo "
-
-</body>
+        // line 314
+        echo "</body>
 </html>
 ";
         $this->deferred->resolve($this, $context, $blocks);
@@ -217,49 +209,46 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
         }
     </style>
     ";
-        // line 65
-        echo "    
-";
         $this->deferred->resolve($this, $context, $blocks);
     }
 
-    // line 67
+    // line 66
     public function block_stylesheets($context, array $blocks = [])
     {
-        // line 68
+        // line 67
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/spectre" . ($context["compress"] ?? null))], "method");
-        // line 69
+        // line 68
         echo "    ";
         if ($this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->themeVarFunc($context, "spectre.exp")) {
             $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/spectre-exp" . ($context["compress"] ?? null))], "method");
         }
-        // line 70
+        // line 69
         echo "    ";
         if ($this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->themeVarFunc($context, "spectre.icons")) {
             $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/spectre-icons" . ($context["compress"] ?? null))], "method");
         }
-        // line 71
+        // line 70
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/theme" . ($context["compress"] ?? null))], "method");
-        // line 72
+        // line 71
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/custom.css"], "method");
-        // line 73
+        // line 72
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/line-awesome.min.css"], "method");
     }
 
-    // line 76
+    // line 75
     public function block_javascripts($context, array $blocks = [])
     {
-        // line 77
+        // line 76
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "jquery", 1 => 101], "method");
-        // line 78
+        // line 77
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.treemenu.js", 1 => ["group" => "bottom"]], "method");
-        // line 79
+        // line 78
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/site.js", 1 => ["group" => "bottom"]], "method");
     }
@@ -269,64 +258,61 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
         $this->deferred->defer($this, 'assets');
     }
 
-    // line 82
+    // line 81
     public function block_assets_deferred($context, array $blocks = [])
     {
-        // line 83
+        // line 82
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "css", [], "method");
         echo "
     ";
-        // line 84
+        // line 83
         echo $this->getAttribute(($context["assets"] ?? null), "js", [], "method");
         echo "
 ";
         $this->deferred->resolve($this, $context, $blocks);
     }
 
-    // line 92
+    // line 87
     public function block_body_classes($context, array $blocks = [])
     {
         echo twig_escape_filter($this->env, ($context["body_classes"] ?? null), "html", null, true);
     }
 
-    // line 94
+    // line 89
     public function block_header($context, array $blocks = [])
     {
-        // line 95
+        // line 90
         echo "        <section id=\"header\" class=\"section\">
             <section class=\"container ";
-        // line 96
+        // line 91
         echo twig_escape_filter($this->env, ($context["grid_size"] ?? null), "html", null, true);
         echo "\">
                 <nav class=\"navbar\">
                     <section class=\"navbar-section logo\">
                         ";
-        // line 99
-        $this->loadTemplate("partials/logo.html.twig", "partials/base.html.twig", 99)->display($context);
-        // line 100
+        // line 94
+        $this->loadTemplate("partials/logo.html.twig", "partials/base.html.twig", 94)->display($context);
+        // line 95
         echo "                    </section>
                     <section class=\"navbar-section desktop-menu\">
-
                         <nav class=\"dropmenu animated\">
-                        ";
-        // line 104
+                            ";
+        // line 98
         $this->displayBlock('header_navigation', $context, $blocks);
-        // line 107
+        // line 101
         echo "                        </nav>
-
                         ";
-        // line 109
+        // line 102
         if (($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", []), "login", []), "enabled", []) && $this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", []), "username", []))) {
-            // line 110
+            // line 103
             echo "                            <span class=\"login-status-wrapper\"><i class=\"fa fa-user\"></i> ";
-            $this->loadTemplate("partials/login-status.html.twig", "partials/base.html.twig", 110)->display($context);
+            $this->loadTemplate("partials/login-status.html.twig", "partials/base.html.twig", 103)->display($context);
             echo "</span>
                         ";
         }
-        // line 112
-        echo "
-                    </section>
+        // line 105
+        echo "                    </section>
                 </nav>
             </section>
         </section>
@@ -337,188 +323,242 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
                 <span class=\"bottom\"></span>
             </div>
         </div>
-    ";
+        ";
     }
 
-    // line 104
+    // line 98
     public function block_header_navigation($context, array $blocks = [])
     {
-        // line 105
+        // line 99
+        echo "                                ";
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 99)->display($context);
+        // line 100
         echo "                            ";
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 105)->display($context);
-        // line 106
-        echo "                        ";
     }
 
-    // line 126
+    // line 118
     public function block_hero($context, array $blocks = [])
     {
     }
 
-    // line 129
+    // line 121
     public function block_body($context, array $blocks = [])
     {
-        // line 130
+        // line 122
         echo "            <section id=\"body-wrapper\" class=\"section\" style=\"display: grid; grid-template-columns: 20% 60% 20%;\">
                 ";
-        // line 132
+        // line 124
         echo "                ";
-        // line 133
+        // line 125
         echo "                ";
         if (($this->getAttribute(($context["uri"] ?? null), "path", []) == "/")) {
-            // line 134
+            // line 126
             echo "                    <div></div>
                     <div>
-                        <section class=\"home-posts\" style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 976px; width: 100%\">
-                            ";
-            // line 137
+                        ";
+            // line 129
+            echo "                        <div class=\"hero-section\">
+                            <div class=\"container\">
+                                <h1>D4 Perbankan dan Keuangan</h1>
+                                <p>
+                                    Bisnis pada bidang jasa keuangan berbasis teknologi akan terus tumbuh. Industri perbankan menjadi salah satu industri yang diharuskan untuk cepat menyesuaikan diri. Program studi D4 Perbankan dan Keuangan hadir untuk menjawab tantangan tersebut. Program studi ini berada di bawah naungan Departemen Bisnis Fakultas Vokasi. Lulusan yang dicetak mampu dan cakap dalam melakukan kegiatan manajerial pada industri perbankan. Lulusan juga dibekali dengan sertifikasi yang menunjang kompetensi mereka. Lapangan pekerjaan bagi lulusan D4 Perbankan dan Keuangan tidak hanya di sektor perbankan tapi juga bisa bekerja di lembaga keuangan non perbankan seperti pegadaian, lembaga financing, koperasi, asuransi, dan berwirausaha. Mahasiswa pada program studi D4 Perbankan dan Keuangan ditempuh dengan jumlah sks sebesar 144 sks.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class=\"accreditation-section\">
+                            <div class=\"container\">
+                                <h2>AKREDITASI</h2>
+                                <p><h3>A</h3></p>
+                            </div>
+                        </div>
+
+                        <style>
+                            .hero-section {
+                                padding: 20px 0;
+                                background-color: #f9f9f9;
+                                text-align: center;
+                            }
+
+                            .content-section {
+                                padding: 20px 0;
+                                background-color: #f9f9f9;
+                            }
+
+                            .container {
+                                max-width: 976px;
+                                width: 100%;
+                                margin: 0 auto;
+                            }
+
+                            .accreditation-section {
+                                padding: 20px 0;
+                                text-align: center;
+                            }
+                        </style>
+
+                        <div class=\"Post-section\">
+                            <div class=\"container\">
+                                <section class=\"home-posts\" style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 976px; width: 100%\">
+                                    ";
+            // line 172
             $context["collection"] = $this->getAttribute($this->getAttribute(($context["page"] ?? null), "find", [0 => "/blog"], "method"), "children", []);
-            // line 138
-            echo "                            ";
+            // line 173
+            echo "                                    ";
             $context["limit"] = 4;
-            // line 139
-            echo "                            ";
+            // line 174
+            echo "                                    ";
             $context["ignore_url_param_array"] = [0 => "event"];
-            // line 140
-            echo "                            ";
+            // line 175
+            echo "                                    ";
             call_user_func_array($this->env->getFunction('paginate')->getCallable(), [($context["collection"] ?? null), ($context["limit"] ?? null), ($context["ignore_url_param_array"] ?? null)]);
-            // line 141
+            // line 176
             echo "
-                            ";
-            // line 142
+                                    ";
+            // line 177
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable(($context["collection"] ?? null));
             foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-                // line 143
-                echo "                                ";
+                // line 178
+                echo "                                        ";
                 $context["bannerimage"] = $this->getAttribute($this->getAttribute($context["item"], "media", []), "banner.jpg", [], "array");
-                // line 144
-                echo "                                <div class=\"recent-post\">
-                                    ";
-                // line 145
-                if (($context["bannerimage"] ?? null)) {
-                    // line 146
-                    echo "                                        <div class=\"recent-post-image\">
+                // line 179
+                echo "                                        <div class=\"recent-post\">
                                             ";
-                    // line 147
+                // line 180
+                if (($context["bannerimage"] ?? null)) {
+                    // line 181
+                    echo "                                                <div class=\"recent-post-image\">
+                                                    ";
+                    // line 182
                     echo $this->getAttribute(($context["bannerimage"] ?? null), "quality", [0 => 100], "method");
                     echo "
-                                        </div>
-                                    ";
+                                                </div>
+                                            ";
                 } else {
-                    // line 150
-                    echo "                                        <div class=\"recent-post-image\"><img src=\"";
+                    // line 185
+                    echo "                                                <div class=\"recent-post-image\"><img src=\"";
                     echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://images/logo.png"), "html", null, true);
-                    echo "\" width=\"60\" height=\"60\"></div>
-                                    ";
+                    echo " \" width=\"60\" height=\"60\"></div>
+                                            ";
                 }
-                // line 152
-                echo "                                    <div class=\"recent-post-text\">
-                                        <h4><a href=\"";
-                // line 153
+                // line 187
+                echo "                                            <div class=\"recent-post-text\">
+                                                <h4><a href=\"";
+                // line 188
                 echo twig_escape_filter($this->env, $this->getAttribute($context["item"], "url", []), "html", null, true);
                 echo "\">";
                 echo twig_escape_filter($this->env, $this->getAttribute($context["item"], "title", []), "html", null, true);
                 echo "</a></h4>
-                                        <p>";
-                // line 154
+                                                <p>";
+                // line 189
                 echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["item"], "date", []), "M j, Y"), "html", null, true);
                 echo "</p>
-                                    </div>
-                                </div>
-                            ";
+                                            </div>
+                                        </div>
+                                    ";
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 158
-            echo "                        </section>
+            // line 193
+            echo "                                </section>
+                            </div>
+                        </div>
+                        <style>
+                            .recent-post .recent-post-image img {
+                                width: 100%; 
+                                height: auto; 
+                                max-width: none; 
+                            }
+                        </style>
+
+
                         ";
-            // line 160
+            // line 206
             echo "                        ";
             if (($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", []), "pagination", []), "enabled", []) && $this->getAttribute($this->getAttribute(($context["collection"] ?? null), "params", []), "pagination", []))) {
-                // line 161
+                // line 207
                 echo "                            ";
-                $this->loadTemplate("partials/pagination.html.twig", "partials/base.html.twig", 161)->display(twig_array_merge($context, ["base_url" => $this->getAttribute(($context["page"] ?? null), "url", []), "pagination" => $this->getAttribute($this->getAttribute(($context["collection"] ?? null), "params", []), "pagination", [])]));
-                // line 162
+                $this->loadTemplate("partials/pagination.html.twig", "partials/base.html.twig", 207)->display(twig_array_merge($context, ["base_url" => $this->getAttribute(($context["page"] ?? null), "url", []), "pagination" => $this->getAttribute($this->getAttribute(($context["collection"] ?? null), "params", []), "pagination", [])]));
+                // line 208
                 echo "                        ";
             }
-            // line 163
+            // line 209
             echo "                    </div>
-                    
                     <div>
                         <div class=\"grav-youtube\">
                             <iframe src=\"https://www.youtube.com/embed/pM8Vhzq5uYE?si=NOJwYE1OIucfNwcE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>
                         </div>
-                          <div class=\"grav-youtube\">
+                        <div class=\"grav-youtube\">
                             <iframe src=\"https://www.youtube.com/embed/ZkTC8YKO2lA?si=6S2ZT9gYELL-bS8E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>
-                        </div> 
+                        </div>
                     </div>
                 ";
-            // line 174
+            // line 219
             echo "
                 ";
-            // line 176
+            // line 221
             echo "
                 ";
-        } elseif (preg_match("~page;~",         // line 177
+        } elseif (preg_match("~page;~",         // line 222
 ($context["uri"] ?? null))) {
-            // line 178
+            // line 223
             echo "                    <div></div>
                     <div>
                         <section class=\"home-posts\" style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 976px; width: 100%\">
                             ";
-            // line 181
+            // line 226
             $context["collection"] = $this->getAttribute($this->getAttribute(($context["page"] ?? null), "find", [0 => "/blog"], "method"), "children", []);
-            // line 182
+            // line 227
             echo "                            ";
             $context["limit"] = 4;
-            // line 183
+            // line 228
             echo "                            ";
             $context["ignore_url_param_array"] = [0 => "event"];
-            // line 184
+            // line 229
             echo "                            ";
             call_user_func_array($this->env->getFunction('paginate')->getCallable(), [($context["collection"] ?? null), ($context["limit"] ?? null), ($context["ignore_url_param_array"] ?? null)]);
-            // line 185
+            // line 230
             echo "
                             ";
-            // line 186
+            // line 231
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable(($context["collection"] ?? null));
             foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-                // line 187
+                // line 232
                 echo "                                ";
                 $context["bannerimage"] = $this->getAttribute($this->getAttribute($context["item"], "media", []), "banner.jpg", [], "array");
-                // line 188
+                // line 233
                 echo "                                <div class=\"recent-post\">
                                     ";
-                // line 189
+                // line 234
                 if (($context["bannerimage"] ?? null)) {
-                    // line 190
+                    // line 235
                     echo "                                        <div class=\"recent-post-image\">
                                             ";
-                    // line 191
+                    // line 236
                     echo $this->getAttribute(($context["bannerimage"] ?? null), "quality", [0 => 100], "method");
                     echo "
                                         </div>
                                     ";
                 } else {
-                    // line 194
+                    // line 239
                     echo "                                        <div class=\"recent-post-image\"><img src=\"";
                     echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://images/logo.png"), "html", null, true);
                     echo "\" width=\"60\" height=\"60\"></div>
                                     ";
                 }
-                // line 196
+                // line 241
                 echo "                                    <div class=\"recent-post-text\">
                                         <h4><a href=\"";
-                // line 197
+                // line 242
                 echo twig_escape_filter($this->env, $this->getAttribute($context["item"], "url", []), "html", null, true);
                 echo "\">";
                 echo twig_escape_filter($this->env, $this->getAttribute($context["item"], "title", []), "html", null, true);
                 echo "</a></h4>
                                         <p>";
-                // line 198
+                // line 243
                 echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["item"], "date", []), "M j, Y"), "html", null, true);
                 echo "</p>
                                     </div>
@@ -528,64 +568,63 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 202
+            // line 247
             echo "                        </section>
                         ";
-            // line 204
+            // line 249
             echo "                        ";
             if (($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", []), "pagination", []), "enabled", []) && $this->getAttribute($this->getAttribute(($context["collection"] ?? null), "params", []), "pagination", []))) {
-                // line 205
+                // line 250
                 echo "                            ";
-                $this->loadTemplate("partials/pagination.html.twig", "partials/base.html.twig", 205)->display(twig_array_merge($context, ["base_url" => $this->getAttribute(($context["page"] ?? null), "url", []), "pagination" => $this->getAttribute($this->getAttribute(($context["collection"] ?? null), "params", []), "pagination", [])]));
-                // line 206
+                $this->loadTemplate("partials/pagination.html.twig", "partials/base.html.twig", 250)->display(twig_array_merge($context, ["base_url" => $this->getAttribute(($context["page"] ?? null), "url", []), "pagination" => $this->getAttribute($this->getAttribute(($context["collection"] ?? null), "params", []), "pagination", [])]));
+                // line 251
                 echo "                        ";
             }
-            // line 207
+            // line 252
             echo "                    </div>
                     <div>
-                    ";
-            // line 210
+                        ";
+            // line 255
             echo "                        <div class=\"grav-youtube\">
-                            <iframe  src=\"https://www.youtube.com/embed/pM8Vhzq5uYE?si=NOJwYE1OIucfNwcE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>
-                        </div>   
+                            <iframe src=\"https://www.youtube.com/embed/pM8Vhzq5uYE?si=NOJwYE1OIucfNwcE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>
+                        </div>
                         <div class=\"grav-youtube\">
-                           <iframe src=\"https://www.youtube.com/embed/ZkTC8YKO2lA?si=6S2ZT9gYELL-bS8E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>
-                        </div> 
-                    ";
-            // line 217
+                            <iframe src=\"https://www.youtube.com/embed/ZkTC8YKO2lA?si=6S2ZT9gYELL-bS8E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>
+                        </div>
+                        ";
+            // line 262
             echo "                    </div>
                 ";
-            // line 219
+            // line 264
             echo "                ";
-            // line 220
+            // line 265
             echo "
                 ";
-            // line 222
+            // line 267
             echo "                ";
         } else {
-            // line 223
+            // line 268
             echo "                    <div class=\"sidebar-content recent-posts\">
                         <h3>Recent Posts</h3>
                         ";
-            // line 225
+            // line 270
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "find", [0 => "/blog"], "method"), "children", []), "order", [0 => "date", 1 => "desc"], "method"), "slice", [0 => 0, 1 => 5], "method"));
             foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
-                // line 226
+                // line 271
                 echo "                            ";
                 $context["bannerimage"] = $this->getAttribute($this->getAttribute($context["p"], "media", []), "banner.jpg", [], "array");
-                // line 227
+                // line 272
                 echo "                            <div class=\"recent-post\">
-                                
                                 <div class=\"recent-post-text\">
                                     <h4><a href=\"";
-                // line 230
+                // line 274
                 echo twig_escape_filter($this->env, $this->getAttribute($context["p"], "url", []), "html", null, true);
                 echo "\">";
                 echo twig_escape_filter($this->env, $this->getAttribute($context["p"], "title", []), "html", null, true);
                 echo "</a></h4>
                                     <p>";
-                // line 231
+                // line 275
                 echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["p"], "date", []), "M j, Y"), "html", null, true);
                 echo "</p>
                                 </div>
@@ -595,87 +634,87 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 235
+            // line 279
             echo "                    </div>
                     ";
-            // line 237
+            // line 281
             echo "                    <section class=\"container ";
             echo twig_escape_filter($this->env, ($context["grid_size"] ?? null), "html", null, true);
             echo "\">
                         ";
-            // line 238
+            // line 282
             $this->displayBlock('messages', $context, $blocks);
-            // line 241
+            // line 285
             echo "                        ";
             $this->displayBlock("content_surround", $context, $blocks);
             echo "
                     </section>
                 ";
         }
-        // line 244
+        // line 288
         echo "            </section>
-        ";
+            ";
     }
 
-    // line 238
+    // line 282
     public function block_messages($context, array $blocks = [])
     {
-        // line 239
+        // line 283
         echo "                            ";
         $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 = null;
         try {
-            $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 =             $this->loadTemplate("partials/messages.html.twig", "partials/base.html.twig", 239);
+            $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 =             $this->loadTemplate("partials/messages.html.twig", "partials/base.html.twig", 283);
         } catch (LoaderError $e) {
             // ignore missing template
         }
         if ($__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4) {
             $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4->display($context);
         }
-        // line 240
+        // line 284
         echo "                        ";
     }
 
-    // line 250
+    // line 294
     public function block_footer($context, array $blocks = [])
     {
-        // line 251
+        // line 295
         echo "        ";
-        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 251)->display($context);
-        // line 252
+        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 295)->display($context);
+        // line 296
         echo "    ";
     }
 
-    // line 254
+    // line 298
     public function block_mobile($context, array $blocks = [])
     {
-        // line 255
+        // line 299
         echo "    <div class=\"mobile-container\">
         <div class=\"overlay\" id=\"overlay\">
             <div class=\"mobile-logo\">
                 ";
-        // line 258
-        $this->loadTemplate("partials/logo.html.twig", "partials/base.html.twig", 258)->display(twig_array_merge($context, ["mobile" => true]));
-        // line 259
+        // line 302
+        $this->loadTemplate("partials/logo.html.twig", "partials/base.html.twig", 302)->display(twig_array_merge($context, ["mobile" => true]));
+        // line 303
         echo "            </div>
             <nav class=\"overlay-menu\">
                 ";
-        // line 261
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 261)->display(twig_array_merge($context, ["tree" => true]));
-        // line 262
+        // line 305
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 305)->display(twig_array_merge($context, ["tree" => true]));
+        // line 306
         echo "            </nav>
         </div>
     </div>
     ";
     }
 
-    // line 267
+    // line 311
     public function block_bottom($context, array $blocks = [])
     {
-        // line 268
+        // line 312
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", [0 => "bottom"], "method");
         echo "
-";
+    ";
     }
 
     public function getTemplateName()
@@ -690,7 +729,7 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
 
     public function getDebugInfo()
     {
-        return array (  675 => 268,  672 => 267,  665 => 262,  663 => 261,  659 => 259,  657 => 258,  652 => 255,  649 => 254,  645 => 252,  642 => 251,  639 => 250,  635 => 240,  624 => 239,  621 => 238,  616 => 244,  609 => 241,  607 => 238,  602 => 237,  599 => 235,  589 => 231,  583 => 230,  578 => 227,  575 => 226,  571 => 225,  567 => 223,  564 => 222,  561 => 220,  559 => 219,  556 => 217,  548 => 210,  544 => 207,  541 => 206,  538 => 205,  535 => 204,  532 => 202,  522 => 198,  516 => 197,  513 => 196,  507 => 194,  501 => 191,  498 => 190,  496 => 189,  493 => 188,  490 => 187,  486 => 186,  483 => 185,  480 => 184,  477 => 183,  474 => 182,  472 => 181,  467 => 178,  465 => 177,  462 => 176,  459 => 174,  447 => 163,  444 => 162,  441 => 161,  438 => 160,  435 => 158,  425 => 154,  419 => 153,  416 => 152,  410 => 150,  404 => 147,  401 => 146,  399 => 145,  396 => 144,  393 => 143,  389 => 142,  386 => 141,  383 => 140,  380 => 139,  377 => 138,  375 => 137,  370 => 134,  367 => 133,  365 => 132,  362 => 130,  359 => 129,  354 => 126,  350 => 106,  347 => 105,  344 => 104,  328 => 112,  322 => 110,  320 => 109,  316 => 107,  314 => 104,  308 => 100,  306 => 99,  300 => 96,  297 => 95,  294 => 94,  288 => 92,  281 => 84,  276 => 83,  273 => 82,  263 => 79,  260 => 78,  257 => 77,  254 => 76,  249 => 73,  246 => 72,  243 => 71,  238 => 70,  233 => 69,  230 => 68,  227 => 67,  221 => 65,  174 => 19,  170 => 17,  166 => 16,  163 => 15,  161 => 14,  150 => 10,  147 => 9,  144 => 8,  130 => 271,  128 => 270,  126 => 267,  123 => 266,  121 => 254,  118 => 253,  115 => 250,  110 => 246,  108 => 129,  104 => 127,  102 => 126,  99 => 125,  97 => 94,  92 => 92,  84 => 86,  82 => 82,  79 => 81,  77 => 76,  74 => 75,  72 => 67,  70 => 8,  65 => 6,  62 => 5,  60 => 3,  58 => 2,  56 => 1,  25 => 4,);
+        return array (  714 => 312,  711 => 311,  704 => 306,  702 => 305,  698 => 303,  696 => 302,  691 => 299,  688 => 298,  684 => 296,  681 => 295,  678 => 294,  674 => 284,  663 => 283,  660 => 282,  655 => 288,  648 => 285,  646 => 282,  641 => 281,  638 => 279,  628 => 275,  622 => 274,  618 => 272,  615 => 271,  611 => 270,  607 => 268,  604 => 267,  601 => 265,  599 => 264,  596 => 262,  588 => 255,  584 => 252,  581 => 251,  578 => 250,  575 => 249,  572 => 247,  562 => 243,  556 => 242,  553 => 241,  547 => 239,  541 => 236,  538 => 235,  536 => 234,  533 => 233,  530 => 232,  526 => 231,  523 => 230,  520 => 229,  517 => 228,  514 => 227,  512 => 226,  507 => 223,  505 => 222,  502 => 221,  499 => 219,  488 => 209,  485 => 208,  482 => 207,  479 => 206,  465 => 193,  455 => 189,  449 => 188,  446 => 187,  440 => 185,  434 => 182,  431 => 181,  429 => 180,  426 => 179,  423 => 178,  419 => 177,  416 => 176,  413 => 175,  410 => 174,  407 => 173,  405 => 172,  360 => 129,  356 => 126,  353 => 125,  351 => 124,  348 => 122,  345 => 121,  340 => 118,  336 => 100,  333 => 99,  330 => 98,  315 => 105,  309 => 103,  307 => 102,  304 => 101,  302 => 98,  297 => 95,  295 => 94,  289 => 91,  286 => 90,  283 => 89,  277 => 87,  270 => 83,  265 => 82,  262 => 81,  252 => 78,  249 => 77,  246 => 76,  243 => 75,  238 => 72,  235 => 71,  232 => 70,  227 => 69,  222 => 68,  219 => 67,  216 => 66,  166 => 19,  162 => 17,  158 => 16,  155 => 15,  153 => 14,  142 => 10,  139 => 9,  136 => 8,  124 => 314,  122 => 311,  119 => 310,  117 => 298,  114 => 297,  111 => 294,  106 => 290,  104 => 121,  100 => 119,  98 => 118,  95 => 117,  93 => 89,  88 => 87,  84 => 85,  82 => 81,  79 => 80,  77 => 75,  74 => 74,  72 => 66,  70 => 8,  65 => 6,  62 => 5,  60 => 3,  58 => 2,  56 => 1,  25 => 4,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -767,12 +806,11 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
         }
     </style>
     {# End Style sidebar #}
-    
 {% endblock head %}
 {% block stylesheets %}
     {% do assets.addCss('theme://css-compiled/spectre'~compress) %}
     {% if theme_var('spectre.exp') %}{% do assets.addCss('theme://css-compiled/spectre-exp'~compress)  %}{% endif %}
-    {% if theme_var('spectre.icons') %}{%  do assets.addCss('theme://css-compiled/spectre-icons'~compress) %}{% endif %}
+    {% if theme_var('spectre.icons') %}{% do assets.addCss('theme://css-compiled/spectre-icons'~compress) %}{% endif %}
     {% do assets.addCss('theme://css-compiled/theme'~compress) %}
     {% do assets.addCss('theme://css/custom.css') %}
     {% do assets.addCss('theme://css/line-awesome.min.css') %}
@@ -790,13 +828,9 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
 {% endblock %}
 </head>
 
-
-
-
-
 <body id=\"top\" class=\"{% block body_classes %}{{ body_classes }}{% endblock %}\">
     <div id=\"page-wrapper\">
-    {% block header %}
+        {% block header %}
         <section id=\"header\" class=\"section\">
             <section class=\"container {{ grid_size }}\">
                 <nav class=\"navbar\">
@@ -804,17 +838,14 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
                         {% include 'partials/logo.html.twig' %}
                     </section>
                     <section class=\"navbar-section desktop-menu\">
-
                         <nav class=\"dropmenu animated\">
-                        {% block header_navigation %}
-                            {% include 'partials/navigation.html.twig' %}
-                        {% endblock %}
+                            {% block header_navigation %}
+                                {% include 'partials/navigation.html.twig' %}
+                            {% endblock %}
                         </nav>
-
                         {% if config.plugins.login.enabled and grav.user.username %}
                             <span class=\"login-status-wrapper\"><i class=\"fa fa-user\"></i> {% include 'partials/login-status.html.twig' %}</span>
                         {% endif %}
-
                     </section>
                 </nav>
             </section>
@@ -826,58 +857,111 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
                 <span class=\"bottom\"></span>
             </div>
         </div>
-    {% endblock %}
+        {% endblock %}
 
-    {% block hero %}{% endblock %}
+        {% block hero %}{% endblock %}
 
         <section id=\"start\">
-        {% block body %}
+            {% block body %}
             <section id=\"body-wrapper\" class=\"section\" style=\"display: grid; grid-template-columns: 20% 60% 20%;\">
-                {#Home#}
-                {#Paginate Pertama#}
+                {# Home #}
+                {# Paginate Pertama #}
                 {% if uri.path == '/' %}
                     <div></div>
                     <div>
-                        <section class=\"home-posts\" style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 976px; width: 100%\">
-                            {% set collection = page.find('/blog').children %}
-                            {% set limit = 4 %}
-                            {% set ignore_url_param_array = [ 'event' ] %}
-                            {% do paginate( collection, limit, ignore_url_param_array ) %}
+                        {# Add new section for \"D4 Perbankan dan Keuangan\" #}
+                        <div class=\"hero-section\">
+                            <div class=\"container\">
+                                <h1>D4 Perbankan dan Keuangan</h1>
+                                <p>
+                                    Bisnis pada bidang jasa keuangan berbasis teknologi akan terus tumbuh. Industri perbankan menjadi salah satu industri yang diharuskan untuk cepat menyesuaikan diri. Program studi D4 Perbankan dan Keuangan hadir untuk menjawab tantangan tersebut. Program studi ini berada di bawah naungan Departemen Bisnis Fakultas Vokasi. Lulusan yang dicetak mampu dan cakap dalam melakukan kegiatan manajerial pada industri perbankan. Lulusan juga dibekali dengan sertifikasi yang menunjang kompetensi mereka. Lapangan pekerjaan bagi lulusan D4 Perbankan dan Keuangan tidak hanya di sektor perbankan tapi juga bisa bekerja di lembaga keuangan non perbankan seperti pegadaian, lembaga financing, koperasi, asuransi, dan berwirausaha. Mahasiswa pada program studi D4 Perbankan dan Keuangan ditempuh dengan jumlah sks sebesar 144 sks.
+                                </p>
+                            </div>
+                        </div>
 
-                            {% for item in collection %}
-                                {% set bannerimage = item.media['banner.jpg'] %}
-                                <div class=\"recent-post\">
-                                    {% if bannerimage %}
-                                        <div class=\"recent-post-image\">
-                                            {{ bannerimage.quality(100) | raw }}
+                        <div class=\"accreditation-section\">
+                            <div class=\"container\">
+                                <h2>AKREDITASI</h2>
+                                <p><h3>A</h3></p>
+                            </div>
+                        </div>
+
+                        <style>
+                            .hero-section {
+                                padding: 20px 0;
+                                background-color: #f9f9f9;
+                                text-align: center;
+                            }
+
+                            .content-section {
+                                padding: 20px 0;
+                                background-color: #f9f9f9;
+                            }
+
+                            .container {
+                                max-width: 976px;
+                                width: 100%;
+                                margin: 0 auto;
+                            }
+
+                            .accreditation-section {
+                                padding: 20px 0;
+                                text-align: center;
+                            }
+                        </style>
+
+                        <div class=\"Post-section\">
+                            <div class=\"container\">
+                                <section class=\"home-posts\" style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 976px; width: 100%\">
+                                    {% set collection = page.find('/blog').children %}
+                                    {% set limit = 4 %}
+                                    {% set ignore_url_param_array = [ 'event' ] %}
+                                    {% do paginate( collection, limit, ignore_url_param_array ) %}
+
+                                    {% for item in collection %}
+                                        {% set bannerimage = item.media['banner.jpg'] %}
+                                        <div class=\"recent-post\">
+                                            {% if bannerimage %}
+                                                <div class=\"recent-post-image\">
+                                                    {{ bannerimage.quality(100) | raw }}
+                                                </div>
+                                            {% else %}
+                                                <div class=\"recent-post-image\"><img src=\"{{ url('theme://images/logo.png') }} \" width=\"60\" height=\"60\"></div>
+                                            {% endif %}
+                                            <div class=\"recent-post-text\">
+                                                <h4><a href=\"{{item.url}}\">{{ item.title }}</a></h4>
+                                                <p>{{ item.date|date(\"M j, Y\")}}</p>
+                                            </div>
                                         </div>
-                                    {% else %}
-                                        <div class=\"recent-post-image\"><img src=\"{{ url('theme://images/logo.png') }}\" width=\"60\" height=\"60\"></div>
-                                    {% endif %}
-                                    <div class=\"recent-post-text\">
-                                        <h4><a href=\"{{item.url}}\">{{ item.title }}</a></h4>
-                                        <p>{{ item.date|date(\"M j, Y\")}}</p>
-                                    </div>
-                                </div>
-                            {% endfor %}
-                        </section>
-                        {# include the pagination bar #}
+                                    {% endfor %}
+                                </section>
+                            </div>
+                        </div>
+                        <style>
+                            .recent-post .recent-post-image img {
+                                width: 100%; 
+                                height: auto; 
+                                max-width: none; 
+                            }
+                        </style>
+
+
+                        {# Include the pagination bar #}
                         {% if config.plugins.pagination.enabled and collection.params.pagination %}
                             {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
                         {% endif %}
                     </div>
-                    
                     <div>
                         <div class=\"grav-youtube\">
                             <iframe src=\"https://www.youtube.com/embed/pM8Vhzq5uYE?si=NOJwYE1OIucfNwcE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>
                         </div>
-                          <div class=\"grav-youtube\">
+                        <div class=\"grav-youtube\">
                             <iframe src=\"https://www.youtube.com/embed/ZkTC8YKO2lA?si=6S2ZT9gYELL-bS8E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>
-                        </div> 
+                        </div>
                     </div>
-                {#EndPaginate Pertama#}
+                {# End Paginate Pertama #}
 
-                {#Paginate Seterusnya#}
+                {# Paginate Seterusnya #}
 
                 {% elseif uri matches '~page;~' %}
                     <div></div>
@@ -905,32 +989,31 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
                                 </div>
                             {% endfor %}
                         </section>
-                        {# include the pagination bar #}
+                        {# Include the pagination bar #}
                         {% if config.plugins.pagination.enabled and collection.params.pagination %}
                             {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
                         {% endif %}
                     </div>
                     <div>
-                    {#YT#}
+                        {# YT #}
                         <div class=\"grav-youtube\">
-                            <iframe  src=\"https://www.youtube.com/embed/pM8Vhzq5uYE?si=NOJwYE1OIucfNwcE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>
-                        </div>   
+                            <iframe src=\"https://www.youtube.com/embed/pM8Vhzq5uYE?si=NOJwYE1OIucfNwcE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>
+                        </div>
                         <div class=\"grav-youtube\">
-                           <iframe src=\"https://www.youtube.com/embed/ZkTC8YKO2lA?si=6S2ZT9gYELL-bS8E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>
-                        </div> 
-                    {#EndYT#}
+                            <iframe src=\"https://www.youtube.com/embed/ZkTC8YKO2lA?si=6S2ZT9gYELL-bS8E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>
+                        </div>
+                        {# End YT #}
                     </div>
-                {#EndPaginate Seterusnya#}
-                {#EndHome#}
+                {# End Paginate Seterusnya #}
+                {# End Home #}
 
-                {#Sidebar#}
+                {# Sidebar #}
                 {% else %}
                     <div class=\"sidebar-content recent-posts\">
                         <h3>Recent Posts</h3>
                         {% for p in page.find('/blog').children.order('date', 'desc').slice(0, 5) %}
                             {% set bannerimage = p.media['banner.jpg'] %}
                             <div class=\"recent-post\">
-                                
                                 <div class=\"recent-post-text\">
                                     <h4><a href=\"{{p.url}}\">{{ p.title }}</a></h4>
                                     <p>{{ p.date|date(\"M j, Y\")}}</p>
@@ -938,7 +1021,7 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
                             </div>
                         {% endfor %}
                     </div>
-                    {#EndSidebar#}
+                    {# End Sidebar #}
                     <section class=\"container {{ grid_size }}\">
                         {% block messages %}
                             {% include 'partials/messages.html.twig' ignore missing %}
@@ -947,11 +1030,11 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
                     </section>
                 {% endif %}
             </section>
-        {% endblock %}
+            {% endblock %}
         </section>
     </div>
 
-    {#Footer#}
+    {# Footer #}
     {% block footer %}
         {% include 'partials/footer.html.twig' %}
     {% endblock %}
@@ -969,12 +1052,9 @@ class __TwigTemplate_bb71588a06803bb4ccea28085540197a3bc23f11bec2779dc4f1a071df7
     </div>
     {% endblock %}
 
-{% block bottom %}
+    {% block bottom %}
     {{ assets.js('bottom')|raw }}
-{% endblock %}
-    {#Endfooter#}
-
-
+    {% endblock %}
 </body>
 </html>
 ", "partials/base.html.twig", "C:\\xampp\\htdocs\\GRAV-UAS\\user\\themes\\quark\\templates\\partials\\base.html.twig");

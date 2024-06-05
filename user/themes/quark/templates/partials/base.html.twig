@@ -62,12 +62,11 @@
         }
     </style>
     {# End Style sidebar #}
-    
 {% endblock head %}
 {% block stylesheets %}
     {% do assets.addCss('theme://css-compiled/spectre'~compress) %}
     {% if theme_var('spectre.exp') %}{% do assets.addCss('theme://css-compiled/spectre-exp'~compress)  %}{% endif %}
-    {% if theme_var('spectre.icons') %}{%  do assets.addCss('theme://css-compiled/spectre-icons'~compress) %}{% endif %}
+    {% if theme_var('spectre.icons') %}{% do assets.addCss('theme://css-compiled/spectre-icons'~compress) %}{% endif %}
     {% do assets.addCss('theme://css-compiled/theme'~compress) %}
     {% do assets.addCss('theme://css/custom.css') %}
     {% do assets.addCss('theme://css/line-awesome.min.css') %}
@@ -85,13 +84,9 @@
 {% endblock %}
 </head>
 
-
-
-
-
 <body id="top" class="{% block body_classes %}{{ body_classes }}{% endblock %}">
     <div id="page-wrapper">
-    {% block header %}
+        {% block header %}
         <section id="header" class="section">
             <section class="container {{ grid_size }}">
                 <nav class="navbar">
@@ -99,17 +94,14 @@
                         {% include 'partials/logo.html.twig' %}
                     </section>
                     <section class="navbar-section desktop-menu">
-
                         <nav class="dropmenu animated">
-                        {% block header_navigation %}
-                            {% include 'partials/navigation.html.twig' %}
-                        {% endblock %}
+                            {% block header_navigation %}
+                                {% include 'partials/navigation.html.twig' %}
+                            {% endblock %}
                         </nav>
-
                         {% if config.plugins.login.enabled and grav.user.username %}
                             <span class="login-status-wrapper"><i class="fa fa-user"></i> {% include 'partials/login-status.html.twig' %}</span>
                         {% endif %}
-
                     </section>
                 </nav>
             </section>
@@ -121,58 +113,111 @@
                 <span class="bottom"></span>
             </div>
         </div>
-    {% endblock %}
+        {% endblock %}
 
-    {% block hero %}{% endblock %}
+        {% block hero %}{% endblock %}
 
         <section id="start">
-        {% block body %}
+            {% block body %}
             <section id="body-wrapper" class="section" style="display: grid; grid-template-columns: 20% 60% 20%;">
-                {#Home#}
-                {#Paginate Pertama#}
+                {# Home #}
+                {# Paginate Pertama #}
                 {% if uri.path == '/' %}
                     <div></div>
                     <div>
-                        <section class="home-posts" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 976px; width: 100%">
-                            {% set collection = page.find('/blog').children %}
-                            {% set limit = 4 %}
-                            {% set ignore_url_param_array = [ 'event' ] %}
-                            {% do paginate( collection, limit, ignore_url_param_array ) %}
+                        {# Add new section for "D4 Perbankan dan Keuangan" #}
+                        <div class="hero-section">
+                            <div class="container">
+                                <h1>D4 Perbankan dan Keuangan</h1>
+                                <p>
+                                    Bisnis pada bidang jasa keuangan berbasis teknologi akan terus tumbuh. Industri perbankan menjadi salah satu industri yang diharuskan untuk cepat menyesuaikan diri. Program studi D4 Perbankan dan Keuangan hadir untuk menjawab tantangan tersebut. Program studi ini berada di bawah naungan Departemen Bisnis Fakultas Vokasi. Lulusan yang dicetak mampu dan cakap dalam melakukan kegiatan manajerial pada industri perbankan. Lulusan juga dibekali dengan sertifikasi yang menunjang kompetensi mereka. Lapangan pekerjaan bagi lulusan D4 Perbankan dan Keuangan tidak hanya di sektor perbankan tapi juga bisa bekerja di lembaga keuangan non perbankan seperti pegadaian, lembaga financing, koperasi, asuransi, dan berwirausaha. Mahasiswa pada program studi D4 Perbankan dan Keuangan ditempuh dengan jumlah sks sebesar 144 sks.
+                                </p>
+                            </div>
+                        </div>
 
-                            {% for item in collection %}
-                                {% set bannerimage = item.media['banner.jpg'] %}
-                                <div class="recent-post">
-                                    {% if bannerimage %}
-                                        <div class="recent-post-image">
-                                            {{ bannerimage.quality(100) | raw }}
+                        <div class="accreditation-section">
+                            <div class="container">
+                                <h2>AKREDITASI</h2>
+                                <p><h3>A</h3></p>
+                            </div>
+                        </div>
+
+                        <style>
+                            .hero-section {
+                                padding: 20px 0;
+                                background-color: #f9f9f9;
+                                text-align: center;
+                            }
+
+                            .content-section {
+                                padding: 20px 0;
+                                background-color: #f9f9f9;
+                            }
+
+                            .container {
+                                max-width: 976px;
+                                width: 100%;
+                                margin: 0 auto;
+                            }
+
+                            .accreditation-section {
+                                padding: 20px 0;
+                                text-align: center;
+                            }
+                        </style>
+
+                        <div class="Post-section">
+                            <div class="container">
+                                <section class="home-posts" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 976px; width: 100%">
+                                    {% set collection = page.find('/blog').children %}
+                                    {% set limit = 4 %}
+                                    {% set ignore_url_param_array = [ 'event' ] %}
+                                    {% do paginate( collection, limit, ignore_url_param_array ) %}
+
+                                    {% for item in collection %}
+                                        {% set bannerimage = item.media['banner.jpg'] %}
+                                        <div class="recent-post">
+                                            {% if bannerimage %}
+                                                <div class="recent-post-image">
+                                                    {{ bannerimage.quality(100) | raw }}
+                                                </div>
+                                            {% else %}
+                                                <div class="recent-post-image"><img src="{{ url('theme://images/logo.png') }} " width="60" height="60"></div>
+                                            {% endif %}
+                                            <div class="recent-post-text">
+                                                <h4><a href="{{item.url}}">{{ item.title }}</a></h4>
+                                                <p>{{ item.date|date("M j, Y")}}</p>
+                                            </div>
                                         </div>
-                                    {% else %}
-                                        <div class="recent-post-image"><img src="{{ url('theme://images/logo.png') }}" width="60" height="60"></div>
-                                    {% endif %}
-                                    <div class="recent-post-text">
-                                        <h4><a href="{{item.url}}">{{ item.title }}</a></h4>
-                                        <p>{{ item.date|date("M j, Y")}}</p>
-                                    </div>
-                                </div>
-                            {% endfor %}
-                        </section>
-                        {# include the pagination bar #}
+                                    {% endfor %}
+                                </section>
+                            </div>
+                        </div>
+                        <style>
+                            .recent-post .recent-post-image img {
+                                width: 100%; 
+                                height: auto; 
+                                max-width: none; 
+                            }
+                        </style>
+
+
+                        {# Include the pagination bar #}
                         {% if config.plugins.pagination.enabled and collection.params.pagination %}
                             {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
                         {% endif %}
                     </div>
-                    
                     <div>
                         <div class="grav-youtube">
                             <iframe src="https://www.youtube.com/embed/pM8Vhzq5uYE?si=NOJwYE1OIucfNwcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
-                          <div class="grav-youtube">
+                        <div class="grav-youtube">
                             <iframe src="https://www.youtube.com/embed/ZkTC8YKO2lA?si=6S2ZT9gYELL-bS8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div> 
+                        </div>
                     </div>
-                {#EndPaginate Pertama#}
+                {# End Paginate Pertama #}
 
-                {#Paginate Seterusnya#}
+                {# Paginate Seterusnya #}
 
                 {% elseif uri matches '~page;~' %}
                     <div></div>
@@ -200,32 +245,31 @@
                                 </div>
                             {% endfor %}
                         </section>
-                        {# include the pagination bar #}
+                        {# Include the pagination bar #}
                         {% if config.plugins.pagination.enabled and collection.params.pagination %}
                             {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
                         {% endif %}
                     </div>
                     <div>
-                    {#YT#}
+                        {# YT #}
                         <div class="grav-youtube">
-                            <iframe  src="https://www.youtube.com/embed/pM8Vhzq5uYE?si=NOJwYE1OIucfNwcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>   
+                            <iframe src="https://www.youtube.com/embed/pM8Vhzq5uYE?si=NOJwYE1OIucfNwcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
                         <div class="grav-youtube">
-                           <iframe src="https://www.youtube.com/embed/ZkTC8YKO2lA?si=6S2ZT9gYELL-bS8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div> 
-                    {#EndYT#}
+                            <iframe src="https://www.youtube.com/embed/ZkTC8YKO2lA?si=6S2ZT9gYELL-bS8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        {# End YT #}
                     </div>
-                {#EndPaginate Seterusnya#}
-                {#EndHome#}
+                {# End Paginate Seterusnya #}
+                {# End Home #}
 
-                {#Sidebar#}
+                {# Sidebar #}
                 {% else %}
                     <div class="sidebar-content recent-posts">
                         <h3>Recent Posts</h3>
                         {% for p in page.find('/blog').children.order('date', 'desc').slice(0, 5) %}
                             {% set bannerimage = p.media['banner.jpg'] %}
                             <div class="recent-post">
-                                
                                 <div class="recent-post-text">
                                     <h4><a href="{{p.url}}">{{ p.title }}</a></h4>
                                     <p>{{ p.date|date("M j, Y")}}</p>
@@ -233,7 +277,7 @@
                             </div>
                         {% endfor %}
                     </div>
-                    {#EndSidebar#}
+                    {# End Sidebar #}
                     <section class="container {{ grid_size }}">
                         {% block messages %}
                             {% include 'partials/messages.html.twig' ignore missing %}
@@ -242,11 +286,11 @@
                     </section>
                 {% endif %}
             </section>
-        {% endblock %}
+            {% endblock %}
         </section>
     </div>
 
-    {#Footer#}
+    {# Footer #}
     {% block footer %}
         {% include 'partials/footer.html.twig' %}
     {% endblock %}
@@ -264,11 +308,8 @@
     </div>
     {% endblock %}
 
-{% block bottom %}
+    {% block bottom %}
     {{ assets.js('bottom')|raw }}
-{% endblock %}
-    {#Endfooter#}
-
-
+    {% endblock %}
 </body>
 </html>

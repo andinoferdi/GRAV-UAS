@@ -1,9 +1,19 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1717237141,
-    'checksum' => '6a6168a7169b0cb353935f566f842a3d',
+    'timestamp' => 1717585270,
+    'checksum' => '2c48bf3f8b8a8fe59cd45663c92f449b',
     'files' => [
+        'user/localhost/config' => [
+            'security' => [
+                'file' => 'user/localhost/config/security.yaml',
+                'modified' => 1717585090
+            ],
+            'themes/quark' => [
+                'file' => 'user/localhost/config/themes/quark.yaml',
+                'modified' => 1717585270
+            ]
+        ],
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
@@ -24,6 +34,10 @@ return [
             'system' => [
                 'file' => 'user/config/system.yaml',
                 'modified' => 1717237134
+            ],
+            'themes/quark' => [
+                'file' => 'user/config/themes/quark.yaml',
+                'modified' => 1717584949
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
@@ -120,6 +134,24 @@ return [
                 'spectre' => [
                     'exp' => false,
                     'icons' => false
+                ],
+                'custom_logo' => [
+                    'user/themes/quark/images/logo/logo-fakultas-vokasi.png' => [
+                        'name' => 'logo-fakultas-vokasi.png',
+                        'full_path' => 'logo-fakultas-vokasi.png',
+                        'type' => 'image/png',
+                        'size' => 8257,
+                        'path' => 'user/themes/quark/images/logo/logo-fakultas-vokasi.png'
+                    ]
+                ],
+                'custom_logo_mobile' => [
+                    'user/themes/quark/images/logo/Logo-Branding-UNAIR-biru.png' => [
+                        'name' => 'Logo-Branding-UNAIR-biru.png',
+                        'full_path' => 'Logo-Branding-UNAIR-biru.png',
+                        'type' => 'image/png',
+                        'size' => 246403,
+                        'path' => 'user/themes/quark/images/logo/Logo-Branding-UNAIR-biru.png'
+                    ]
                 ]
             ]
         ],
@@ -3816,7 +3848,7 @@ node_modules'
                 12 => 'exe'
             ],
             'sanitize_svg' => true,
-            'salt' => 'rftFd8XoUhgcnz'
+            'salt' => '6xmSYhZelcnz2L'
         ],
         'site' => [
             'title' => 'Grav',
